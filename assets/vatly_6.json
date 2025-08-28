@@ -1,0 +1,65 @@
+{
+  "chapters": [
+    {
+      "title": "Chương 1: Đo lường các đại lượng vật lý",
+      "lessons": [
+        "Bài 1: Đo chiều dài",
+        "Bài 2: Đo thể tích",
+        "Bài 3: Đo khối lượng",
+        "Bài 4: Đo thời gian",
+        "Bài 5: Đo nhiệt độ",
+        "Bài 6: Các đơn vị đo thông dụng"
+      ]
+    },
+    {
+      "title": "Chương 2: Lực và áp suất",
+      "lessons": [
+        "Bài 1: Lực – Tác dụng và kết quả",
+        "Bài 2: Trọng lực và khối lượng",
+        "Bài 3: Lực đàn hồi",
+        "Bài 4: Lực ma sát",
+        "Bài 5: Áp suất và áp suất chất lỏng",
+        "Bài 6: Nguyên lí Pascal"
+      ]
+    },
+    {
+      "title": "Chương 3: Chất và sự biến đổi của chất",
+      "lessons": [
+        "Bài 1: Chất rắn, chất lỏng, chất khí",
+        "Bài 2: Sự nở vì nhiệt của chất rắn, lỏng, khí",
+        "Bài 3: Sự bay hơi và sự ngưng tụ",
+        "Bài 4: Sự nóng chảy và sự đông đặc",
+        "Bài 5: Sự sôi"
+      ]
+    },
+    {
+      "title": "Chương 4: Nhiệt học cơ bản",
+      "lessons": [
+        "Bài 1: Nhiệt năng",
+        "Bài 2: Sự truyền nhiệt",
+        "Bài 3: Đối lưu và bức xạ nhiệt",
+        "Bài 4: Phương trình cân bằng nhiệt"
+      ]
+    },
+    {
+      "title": "Chương 5: Âm học và quang học",
+      "lessons": [
+        "Bài 1: Sự tạo thành âm thanh",
+        "Bài 2: Độ cao và độ to của âm",
+        "Bài 3: Phản xạ âm – Tiếng vang",
+        "Bài 4: Ánh sáng và sự truyền ánh sáng",
+        "Bài 5: Gương phẳng, gương cầu lồi và gương cầu lõm"
+      ]
+    },
+    {
+      "title": "Chương 6: Điện học cơ bản",
+      "lessons": [
+        "Bài 1: Vật dẫn điện và vật cách điện",
+        "Bài 2: Dòng điện và nguồn điện",
+        "Bài 3: Hiệu điện thế và cường độ dòng điện",
+        "Bài 4: Sơ đồ mạch điện và cách mắc mạch điện",
+        "Bài 5: An toàn điện"
+      ]
+    }
+  ]
+}
