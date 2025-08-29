@@ -3,62 +3,186 @@
     {
       "title": "Chương 1: Đo lường các đại lượng vật lý",
       "lessons": [
-        "Bài 1: Đo chiều dài",
-        "Bài 2: Đo thể tích",
-        "Bài 3: Đo khối lượng",
-        "Bài 4: Đo thời gian",
-        "Bài 5: Đo nhiệt độ",
-        "Bài 6: Các đơn vị đo thông dụng"
+        {
+          "title": "Bài 1: Đo chiều dài",
+          "content": "Lý thuyết bài 1: Hướng dẫn cách đo chiều dài chính xác bằng thước, thước cuộn và các dụng cụ đo khác...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Đo thể tích",
+          "content": "Lý thuyết bài 2: Tìm hiểu các phương pháp đo thể tích chất rắn và chất lỏng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Đo khối lượng",
+          "content": "Lý thuyết bài 3: Cách đo khối lượng bằng cân đồng hồ, cân điện tử và công thức tính khối lượng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Đo thời gian",
+          "content": "Lý thuyết bài 4: Hướng dẫn sử dụng đồng hồ đo thời gian và tính toán thời gian chuyển động...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Đo nhiệt độ",
+          "content": "Lý thuyết bài 5: Giới thiệu các loại nhiệt kế và cách đo nhiệt độ chính xác...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 6: Các đơn vị đo thông dụng",
+          "content": "Lý thuyết bài 6: Tìm hiểu hệ SI và các đơn vị đo phổ biến trong vật lý...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 2: Lực và áp suất",
       "lessons": [
-        "Bài 1: Lực – Tác dụng và kết quả",
-        "Bài 2: Trọng lực và khối lượng",
-        "Bài 3: Lực đàn hồi",
-        "Bài 4: Lực ma sát",
-        "Bài 5: Áp suất và áp suất chất lỏng",
-        "Bài 6: Nguyên lí Pascal"
+        {
+          "title": "Bài 1: Lực – Tác dụng và kết quả",
+          "content": "Lý thuyết bài 1: Khái niệm lực, phân loại lực và tác dụng của lực lên vật...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Trọng lực và khối lượng",
+          "content": "Lý thuyết bài 2: Sự khác biệt giữa trọng lượng và khối lượng, ứng dụng trong đo lường...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Lực đàn hồi",
+          "content": "Lý thuyết bài 3: Định luật Hooke, lực đàn hồi và các ví dụ thực tiễn...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Lực ma sát",
+          "content": "Lý thuyết bài 4: Các loại lực ma sát, công thức tính và ứng dụng thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Áp suất và áp suất chất lỏng",
+          "content": "Lý thuyết bài 5: Công thức tính áp suất và ứng dụng trong đời sống, kỹ thuật...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 6: Nguyên lí Pascal",
+          "content": "Lý thuyết bài 6: Giới thiệu nguyên lí Pascal và các ứng dụng như phanh thủy lực, máy ép thủy lực...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 3: Chất và sự biến đổi của chất",
       "lessons": [
-        "Bài 1: Chất rắn, chất lỏng, chất khí",
-        "Bài 2: Sự nở vì nhiệt của chất rắn, lỏng, khí",
-        "Bài 3: Sự bay hơi và sự ngưng tụ",
-        "Bài 4: Sự nóng chảy và sự đông đặc",
-        "Bài 5: Sự sôi"
+        {
+          "title": "Bài 1: Chất rắn, chất lỏng, chất khí",
+          "content": "Lý thuyết bài 1: Đặc điểm và tính chất của chất rắn, chất lỏng và chất khí...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Sự nở vì nhiệt của chất rắn, lỏng, khí",
+          "content": "Lý thuyết bài 2: Cơ chế nở vì nhiệt và ảnh hưởng trong thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Sự bay hơi và sự ngưng tụ",
+          "content": "Lý thuyết bài 3: Nguyên nhân, hiện tượng và ứng dụng của sự bay hơi, sự ngưng tụ...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Sự nóng chảy và sự đông đặc",
+          "content": "Lý thuyết bài 4: Sự chuyển đổi trạng thái giữa rắn và lỏng, ứng dụng trong sản xuất...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Sự sôi",
+          "content": "Lý thuyết bài 5: Hiện tượng sôi, điểm sôi và các yếu tố ảnh hưởng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 4: Nhiệt học cơ bản",
       "lessons": [
-        "Bài 1: Nhiệt năng",
-        "Bài 2: Sự truyền nhiệt",
-        "Bài 3: Đối lưu và bức xạ nhiệt",
-        "Bài 4: Phương trình cân bằng nhiệt"
+        {
+          "title": "Bài 1: Nhiệt năng",
+          "content": "Lý thuyết bài 1: Khái niệm nhiệt năng, các yếu tố ảnh hưởng và ứng dụng thực tiễn...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Sự truyền nhiệt",
+          "content": "Lý thuyết bài 2: Ba hình thức truyền nhiệt: dẫn nhiệt, đối lưu và bức xạ nhiệt...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Đối lưu và bức xạ nhiệt",
+          "content": "Lý thuyết bài 3: Cơ chế đối lưu và bức xạ nhiệt, vai trò trong tự nhiên và công nghiệp...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Phương trình cân bằng nhiệt",
+          "content": "Lý thuyết bài 4: Phương trình tính cân bằng nhiệt và các bài tập ứng dụng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 5: Âm học và quang học",
       "lessons": [
-        "Bài 1: Sự tạo thành âm thanh",
-        "Bài 2: Độ cao và độ to của âm",
-        "Bài 3: Phản xạ âm – Tiếng vang",
-        "Bài 4: Ánh sáng và sự truyền ánh sáng",
-        "Bài 5: Gương phẳng, gương cầu lồi và gương cầu lõm"
+        {
+          "title": "Bài 1: Sự tạo thành âm thanh",
+          "content": "Lý thuyết bài 1: Cách âm thanh được tạo thành, dao động của nguồn âm và ứng dụng thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Độ cao và độ to của âm",
+          "content": "Lý thuyết bài 2: Sự khác biệt giữa độ cao và độ to của âm, cách đo và ứng dụng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Phản xạ âm – Tiếng vang",
+          "content": "Lý thuyết bài 3: Hiện tượng phản xạ âm, ứng dụng trong sonar, đo khoảng cách và kiến trúc âm thanh...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Ánh sáng và sự truyền ánh sáng",
+          "content": "Lý thuyết bài 4: Các đặc điểm của ánh sáng và cơ chế truyền ánh sáng trong môi trường khác nhau...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Gương phẳng, gương cầu lồi và gương cầu lõm",
+          "content": "Lý thuyết bài 5: Tính chất của các loại gương và ứng dụng trong cuộc sống...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 6: Điện học cơ bản",
       "lessons": [
-        "Bài 1: Vật dẫn điện và vật cách điện",
-        "Bài 2: Dòng điện và nguồn điện",
-        "Bài 3: Hiệu điện thế và cường độ dòng điện",
-        "Bài 4: Sơ đồ mạch điện và cách mắc mạch điện",
-        "Bài 5: An toàn điện"
+        {
+          "title": "Bài 1: Vật dẫn điện và vật cách điện",
+          "content": "Lý thuyết bài 1: Phân biệt vật dẫn điện và vật cách điện, ví dụ minh họa thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Dòng điện và nguồn điện",
+          "content": "Lý thuyết bài 2: Khái niệm dòng điện, nguồn điện và cách đo cường độ dòng điện...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Hiệu điện thế và cường độ dòng điện",
+          "content": "Lý thuyết bài 3: Mối quan hệ giữa hiệu điện thế, cường độ dòng điện và điện trở...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Sơ đồ mạch điện và cách mắc mạch điện",
+          "content": "Lý thuyết bài 4: Các loại mạch điện cơ bản, cách mắc nối tiếp và song song...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: An toàn điện",
+          "content": "Lý thuyết bài 5: Các nguyên tắc an toàn khi sử dụng điện và các biện pháp phòng tránh tai nạn...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     }
   ]

@@ -1,0 +1,139 @@
+{
+  "chapters": [
+    {
+      "title": "Chương 1: Số hữu tỉ và số thực",
+      "lessons": [
+        {
+          "title": "Bài 1: Số hữu tỉ",
+          "content": "Lý thuyết về khái niệm số hữu tỉ, cách biểu diễn trên trục số...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Cộng, trừ số hữu tỉ",
+          "content": "Hướng dẫn quy tắc cộng, trừ các số hữu tỉ, ví dụ minh họa...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Nhân, chia số hữu tỉ",
+          "content": "Quy tắc nhân, chia số hữu tỉ và ứng dụng trong bài toán thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Số thực",
+          "content": "Khái niệm số thực, căn bậc hai và ứng dụng trong bài toán hình học...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Chương 2: Lũy thừa và căn bậc hai",
+      "lessons": [
+        {
+          "title": "Bài 1: Lũy thừa với số mũ nguyên",
+          "content": "Định nghĩa lũy thừa, tính chất và ứng dụng trong bài toán số học...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Căn bậc hai và căn bậc ba",
+          "content": "Lý thuyết về căn bậc hai, căn bậc ba, ví dụ minh họa chi tiết...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: So sánh và rút gọn biểu thức có căn",
+          "content": "Phương pháp so sánh, rút gọn và tính toán với biểu thức chứa căn...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Chương 3: Tỉ lệ thức và đại số cơ bản",
+      "lessons": [
+        {
+          "title": "Bài 1: Tỉ số và tỉ lệ thức",
+          "content": "Lý thuyết về tỉ số, tỉ lệ thức và ứng dụng trong giải bài tập thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Đơn thức và đa thức",
+          "content": "Khái niệm đơn thức, đa thức và phép toán cộng, trừ, nhân giữa chúng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Hằng đẳng thức đáng nhớ",
+          "content": "Các hằng đẳng thức quan trọng như (a+b)^2, (a-b)^2 và a^2-b^2...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Phân tích đa thức thành nhân tử",
+          "content": "Phương pháp đặt nhân tử chung, nhóm hạng tử và dùng hằng đẳng thức...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Chương 4: Biểu thức và phương trình",
+      "lessons": [
+        {
+          "title": "Bài 1: Giá trị của biểu thức đại số",
+          "content": "Cách thay giá trị và tính toán biểu thức đại số trong bài toán thực tế...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Phương trình bậc nhất một ẩn",
+          "content": "Khái niệm phương trình, cách giải phương trình bậc nhất một ẩn...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Bài toán thực tế với phương trình",
+          "content": "Áp dụng phương trình để giải các bài toán về năng suất, vận tốc, tuổi tác...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Chương 5: Hình học phẳng",
+      "lessons": [
+        {
+          "title": "Bài 1: Góc và đường thẳng song song",
+          "content": "Lý thuyết về góc, tính chất góc khi hai đường thẳng song song bị cắt bởi đường thẳng thứ ba...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Tam giác và đường trung tuyến",
+          "content": "Định nghĩa tam giác, trung tuyến, tính chất và các bài toán liên quan...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Định lý Pitago",
+          "content": "Phát biểu, chứng minh và ứng dụng định lý Pitago trong tính toán độ dài cạnh tam giác vuông...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Hình chữ nhật, hình bình hành, hình thang",
+          "content": "Lý thuyết về diện tích, chu vi và tính chất của các hình cơ bản trong hình học phẳng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Chương 6: Thống kê và xác suất",
+      "lessons": [
+        {
+          "title": "Bài 1: Số liệu thống kê và bảng tần số",
+          "content": "Cách thu thập, lập bảng số liệu và phân tích dữ liệu thống kê cơ bản...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Biểu đồ cột và biểu đồ quạt",
+          "content": "Hướng dẫn vẽ biểu đồ và phân tích dữ liệu dựa trên biểu đồ trực quan...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Xác suất của biến cố",
+          "content": "Giới thiệu khái niệm xác suất cơ bản và tính xác suất của biến cố trong bài toán đơn giản...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
+      ]
+    }
+  ]
+}

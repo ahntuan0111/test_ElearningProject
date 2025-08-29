@@ -1,27 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+import '../controllers/theory_controller.dart';
 import '../routes/app_routes.dart';
 
 class SubjectDetailScreen extends StatelessWidget {
+  final Color primaryGreen = const Color(0xFF4CAF50);
   final int grade;
   final String subject;
 
-  const SubjectDetailScreen({
+  SubjectDetailScreen({
     super.key,
     required this.grade,
     required this.subject,
   });
 
+  final TheoryController controller = Get.put(TheoryController());
+
   @override
   Widget build(BuildContext context) {
+    // Load dữ liệu lý thuyết cho môn + khối
+    controller.loadTheory(subject, grade);
+
     final List<Map<String, dynamic>> featureCards = [
       {
         "title": "Lý thuyết",
         "icon": Icons.menu_book_rounded,
         "color": Colors.blue,
         "onTap": () {
-          // TODO: Mở trang lý thuyết
           Get.toNamed(
             AppRoutes.theory,
             arguments: {
@@ -60,7 +65,7 @@ class SubjectDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Khối $grade - $subject"),
-        backgroundColor: Colors.red,
+        backgroundColor: primaryGreen,
         elevation: 2,
       ),
       body: Padding(
@@ -83,12 +88,12 @@ class SubjectDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // Dùng GridView để hiển thị 4 Card gọn gàng
+            // Grid hiển thị các thẻ chức năng
             Expanded(
               child: GridView.builder(
                 itemCount: featureCards.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, // 2 card mỗi hàng
+                  crossAxisCount: 2,
                   crossAxisSpacing: 16,
                   mainAxisSpacing: 16,
                   childAspectRatio: 1.05,
@@ -106,61 +111,64 @@ class SubjectDetailScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(18),
                       ),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(18),
-                          gradient: LinearGradient(
-                            colors: [
-                              card["color"].withOpacity(0.1),
-                              card["color"].withOpacity(0.25),
-                            ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                          ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Container(
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  color: card["color"].withOpacity(0.15),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: card["color"].withOpacity(0.5),
-                                      blurRadius: 8,
-                                      offset: const Offset(0, 4),
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                color: card["color"].withOpacity(0.15),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: card["color"].withOpacity(0.5),
+                                    blurRadius: 8,
+                                    offset: const Offset(0, 4),
+                                  ),
+                                ],
+                              ),
+                              padding: const EdgeInsets.all(16),
+                              child: Icon(
+                                card["icon"],
+                                size: 38,
+                                color: card["color"],
+                              ),
+                            ),
+                            const SizedBox(height: 16),
+                            Text(
+                              card["title"],
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: card["color"].shade700,
+                              ),
+                            ),
+
+                            // **Thanh tiến trình chỉ cho thẻ "Lý thuyết"**
+                            if (card["title"] == "Lý thuyết") ...[
+                              const SizedBox(height: 12),
+                              Obx(() {
+                                double progress = controller.getProgress(subject, grade);
+                                return Column(
+                                  children: [
+                                    LinearProgressIndicator(
+                                      value: progress,
+                                      minHeight: 8,
+                                      backgroundColor: card["color"].withOpacity(0.2),
+                                      color: card["color"],
+                                    ),
+                                    const SizedBox(height: 4),
+                                    Text(
+                                      "${(progress * 100).toStringAsFixed(0)}% Hoàn thành",
+                                      style: const TextStyle(fontSize: 12),
                                     ),
                                   ],
-                                ),
-                                padding: const EdgeInsets.all(16),
-                                child: Icon(
-                                  card["icon"],
-                                  size: 38,
-                                  color: card["color"],
-                                ),
-                              ),
-                              const SizedBox(height: 16),
-                              Text(
-                                card["title"],
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                  color: card["color"].shade700,
-                                  shadows: [
-                                    Shadow(
-                                      color: Colors.black.withOpacity(0.15),
-                                      offset: const Offset(1, 1),
-                                      blurRadius: 2,
-                                    ),
-                                  ],
-                                ),
-                              ),
+                                );
+                              }),
                             ],
-                          ),
+                          ],
                         ),
                       ),
                     ),

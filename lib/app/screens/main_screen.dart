@@ -23,7 +23,7 @@ class MainScreen extends StatelessWidget {
   final List<String> titles = [
     "Trang chủ",
     "Khóa học",
-    "Profile",
+    "Thông tin cá nhân",
   ];
 
   final Color primaryGreen = const Color(0xFF4CAF50);
