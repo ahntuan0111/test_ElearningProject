@@ -26,26 +26,103 @@ class MainScreen extends StatelessWidget {
     "Profile",
   ];
 
+  final Color primaryGreen = const Color(0xFF4CAF50);
+
   @override
   Widget build(BuildContext context) {
     return Obx(() => Scaffold(
+      backgroundColor: const Color(0xFFF8F9FB),
       appBar: AppBar(
-        title: Text(titles[mainController.currentIndex.value]),
-        backgroundColor: Colors.red,
+        title: Text(
+          titles[mainController.currentIndex.value],
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
+        backgroundColor: primaryGreen,
         centerTitle: true,
+        elevation: 3,
       ),
       body: screens[mainController.currentIndex.value],
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: mainController.currentIndex.value,
-        onTap: (index) => mainController.changeTab(index),
-        selectedItemColor: Colors.red,
-        unselectedItemColor: Colors.grey,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.book), label: "Khóa học"),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
-        ],
+
+      /// BOTTOM NAVIGATION FLOATING ROUNDED STYLE
+      bottomNavigationBar: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(30),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.15),
+                blurRadius: 12,
+                offset: const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(30),
+            child: BottomNavigationBar(
+              type: BottomNavigationBarType.fixed,
+              backgroundColor: Colors.white,
+              currentIndex: mainController.currentIndex.value,
+              onTap: (index) => mainController.changeTab(index),
+              selectedItemColor: primaryGreen,
+              unselectedItemColor: Colors.grey,
+              selectedLabelStyle: const TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 13,
+              ),
+              unselectedLabelStyle: const TextStyle(
+                fontSize: 12,
+              ),
+              iconSize: 28,
+              elevation: 0,
+              items: [
+                _buildAnimatedItem(
+                  icon: Icons.home,
+                  label: "Home",
+                  isSelected: mainController.currentIndex.value == 0,
+                ),
+                _buildAnimatedItem(
+                  icon: Icons.book,
+                  label: "Khóa học",
+                  isSelected: mainController.currentIndex.value == 1,
+                ),
+                _buildAnimatedItem(
+                  icon: Icons.person,
+                  label: "Profile",
+                  isSelected: mainController.currentIndex.value == 2,
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     ));
+  }
+
+  /// CUSTOM BOTTOM NAVIGATION ITEM WITH ANIMATION
+  BottomNavigationBarItem _buildAnimatedItem({
+    required IconData icon,
+    required String label,
+    required bool isSelected,
+  }) {
+    return BottomNavigationBarItem(
+      icon: AnimatedContainer(
+        duration: const Duration(milliseconds: 250),
+        curve: Curves.easeInOut,
+        padding: EdgeInsets.only(
+          top: isSelected ? 0 : 4,
+          bottom: isSelected ? 4 : 0,
+        ),
+        child: Icon(
+          icon,
+          size: isSelected ? 32 : 26,
+        ),
+      ),
+      label: label,
+    );
   }
 }

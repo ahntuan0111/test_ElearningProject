@@ -3,64 +3,196 @@
     {
       "title": "Chương 1: Số tự nhiên",
       "lessons": [
-        "Bài 1: Tập hợp và phần tử của tập hợp",
-        "Bài 2: Tập hợp các số tự nhiên",
-        "Bài 3: So sánh và sắp thứ tự các số tự nhiên",
-        "Bài 4: Phép cộng và phép trừ số tự nhiên",
-        "Bài 5: Phép nhân và phép chia số tự nhiên",
-        "Bài 6: Lũy thừa với số mũ tự nhiên",
-        "Bài 7: Thứ tự thực hiện các phép tính"
+        {
+          "title": "Bài 1: Tập hợp và phần tử của tập hợp",
+          "content": "Lý thuyết về tập hợp và phần tử của tập hợp...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Tập hợp các số tự nhiên",
+          "content": "Lý thuyết về tập hợp các số tự nhiên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: So sánh và sắp thứ tự các số tự nhiên",
+          "content": "Lý thuyết so sánh và sắp xếp số tự nhiên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Phép cộng và phép trừ số tự nhiên",
+          "content": "Lý thuyết phép cộng và phép trừ số tự nhiên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Phép nhân và phép chia số tự nhiên",
+          "content": "Lý thuyết phép nhân và phép chia số tự nhiên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 6: Lũy thừa với số mũ tự nhiên",
+          "content": "Lý thuyết lũy thừa với số mũ tự nhiên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 7: Thứ tự thực hiện các phép tính",
+          "content": "Lý thuyết thứ tự thực hiện phép tính...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 2: Số nguyên",
       "lessons": [
-        "Bài 1: Khái niệm số nguyên",
-        "Bài 2: Cộng và trừ số nguyên",
-        "Bài 3: Nhân và chia số nguyên",
-        "Bài 4: Lũy thừa với số mũ nguyên",
-        "Bài 5: So sánh và sắp thứ tự số nguyên"
+        {
+          "title": "Bài 1: Khái niệm số nguyên",
+          "content": "Lý thuyết khái niệm số nguyên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Cộng và trừ số nguyên",
+          "content": "Lý thuyết phép cộng và phép trừ số nguyên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Nhân và chia số nguyên",
+          "content": "Lý thuyết phép nhân và phép chia số nguyên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Lũy thừa với số mũ nguyên",
+          "content": "Lý thuyết lũy thừa với số mũ nguyên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: So sánh và sắp thứ tự số nguyên",
+          "content": "Lý thuyết so sánh và sắp xếp số nguyên...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 3: Phân số và số thập phân",
       "lessons": [
-        "Bài 1: Khái niệm phân số",
-        "Bài 2: Rút gọn và quy đồng mẫu số phân số",
-        "Bài 3: Cộng và trừ phân số",
-        "Bài 4: Nhân và chia phân số",
-        "Bài 5: Số thập phân và các phép tính với số thập phân",
-        "Bài 6: So sánh phân số và số thập phân"
+        {
+          "title": "Bài 1: Khái niệm phân số",
+          "content": "Lý thuyết khái niệm phân số...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Rút gọn và quy đồng mẫu số phân số",
+          "content": "Lý thuyết rút gọn và quy đồng mẫu số phân số...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Cộng và trừ phân số",
+          "content": "Lý thuyết cộng và trừ phân số...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Nhân và chia phân số",
+          "content": "Lý thuyết nhân và chia phân số...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Số thập phân và các phép tính với số thập phân",
+          "content": "Lý thuyết số thập phân và phép tính số thập phân...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 6: So sánh phân số và số thập phân",
+          "content": "Lý thuyết so sánh phân số và số thập phân...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 4: Số đo đại lượng",
       "lessons": [
-        "Bài 1: Đo độ dài",
-        "Bài 2: Đo khối lượng",
-        "Bài 3: Đo diện tích",
-        "Bài 4: Đo thể tích",
-        "Bài 5: Đo thời gian"
+        {
+          "title": "Bài 1: Đo độ dài",
+          "content": "Lý thuyết đo độ dài...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Đo khối lượng",
+          "content": "Lý thuyết đo khối lượng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Đo diện tích",
+          "content": "Lý thuyết đo diện tích...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Đo thể tích",
+          "content": "Lý thuyết đo thể tích...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Đo thời gian",
+          "content": "Lý thuyết đo thời gian...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 5: Hình học phẳng cơ bản",
       "lessons": [
-        "Bài 1: Điểm, đoạn thẳng, tia và góc",
-        "Bài 2: Đường thẳng và đường gấp khúc",
-        "Bài 3: Đường tròn và các yếu tố liên quan",
-        "Bài 4: Tam giác và tứ giác",
-        "Bài 5: Tính chu vi và diện tích hình tam giác",
-        "Bài 6: Tính chu vi và diện tích hình tứ giác"
+        {
+          "title": "Bài 1: Điểm, đoạn thẳng, tia và góc",
+          "content": "Lý thuyết điểm, đoạn thẳng, tia và góc...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Đường thẳng và đường gấp khúc",
+          "content": "Lý thuyết đường thẳng và đường gấp khúc...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Đường tròn và các yếu tố liên quan",
+          "content": "Lý thuyết đường tròn và yếu tố liên quan...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Tam giác và tứ giác",
+          "content": "Lý thuyết tam giác và tứ giác...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 5: Tính chu vi và diện tích hình tam giác",
+          "content": "Lý thuyết tính chu vi và diện tích tam giác...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 6: Tính chu vi và diện tích hình tứ giác",
+          "content": "Lý thuyết tính chu vi và diện tích tứ giác...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     },
     {
       "title": "Chương 6: Thống kê và xác suất",
       "lessons": [
-        "Bài 1: Thu thập và xử lý dữ liệu",
-        "Bài 2: Biểu đồ cột và biểu đồ quạt",
-        "Bài 3: Số trung bình cộng",
-        "Bài 4: Giới thiệu về xác suất đơn giản"
+        {
+          "title": "Bài 1: Thu thập và xử lý dữ liệu",
+          "content": "Lý thuyết thu thập và xử lý dữ liệu...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 2: Biểu đồ cột và biểu đồ quạt",
+          "content": "Lý thuyết biểu đồ cột và biểu đồ quạt...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 3: Số trung bình cộng",
+          "content": "Lý thuyết số trung bình cộng...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        },
+        {
+          "title": "Bài 4: Giới thiệu về xác suất đơn giản",
+          "content": "Lý thuyết xác suất đơn giản...",
+          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+        }
       ]
     }
   ]

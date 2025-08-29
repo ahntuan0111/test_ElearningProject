@@ -5,6 +5,7 @@ import '../screens/register_screen.dart';
 import '../screens/main_screen.dart';
 import '../screens/subject_detail_screen.dart';
 import '../screens/theory_screen.dart';
+import '../screens/lesson_detail_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {
@@ -27,7 +28,10 @@ class AppPages {
     GetPage(
       name: AppRoutes.subjectDetail,
       page: () => SubjectDetailScreen(
-          grade: Get.arguments['grade'], subject: Get.arguments['subject']),
+        grade: Get.arguments['grade'],
+        subject: Get.arguments['subject'],
+      ),
+      transition: Transition.rightToLeftWithFade,
     ),
     GetPage(
       name: AppRoutes.course,
@@ -42,6 +46,15 @@ class AppPages {
       ),
       transition: Transition.fadeIn,
     ),
-
+    // ✅ Thêm route mới cho LessonDetailScreen
+    GetPage(
+      name: AppRoutes.lessonDetail,
+      page: () => LessonDetailScreen(
+        lessonTitle: Get.arguments['lessonTitle'],
+        content: Get.arguments['content'],
+        videoUrl: Get.arguments['videoUrl'],
+      ),
+      transition: Transition.cupertino,
+    ),
   ];
 }

@@ -1,10 +1,20 @@
 class Lesson {
   final String title;
+  final String content;
+  final String videoUrl;
 
-  Lesson({required this.title});
+  Lesson({
+    required this.title,
+    required this.content,
+    required this.videoUrl,
+  });
 
-  factory Lesson.fromJson(String title) {
-    return Lesson(title: title);
+  factory Lesson.fromJson(Map<String, dynamic> json) {
+    return Lesson(
+      title: json['title'],
+      content: json['content'],
+      videoUrl: json['videoUrl'],
+    );
   }
 }
 

@@ -5,4 +5,5 @@ class AppRoutes {
   static const subjectDetail = '/subject_detail';
   static const course = '/course';
   static const theory = '/theory';
+  static const lessonDetail = '/lesson_detail';
 }
