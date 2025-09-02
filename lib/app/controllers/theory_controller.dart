@@ -9,6 +9,7 @@ class TheoryController extends GetxController {
   var isLoading = false.obs;
   var chapters = <Chapter>[].obs;
   var completedLessons = <String>{}.obs;
+  var quizResults = {}.obs;
 
   @override
   void onInit() {
@@ -61,4 +62,6 @@ class TheoryController extends GetxController {
 
     return doneLessons / totalLessons;
   }
+
+
 }

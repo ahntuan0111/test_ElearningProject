@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/theory_controller.dart';
+import '../controllers/quiz_controller.dart';
 import '../routes/app_routes.dart';
 
 class SubjectDetailScreen extends StatelessWidget {
@@ -15,6 +16,7 @@ class SubjectDetailScreen extends StatelessWidget {
   });
 
   final TheoryController controller = Get.put(TheoryController());
+  final QuizController quizController = Get.put(QuizController());
 
   @override
   Widget build(BuildContext context) {
@@ -41,15 +43,25 @@ class SubjectDetailScreen extends StatelessWidget {
         "icon": Icons.edit_document,
         "color": Colors.green,
         "onTap": () {
-          // TODO: Mở trang giải bài tập
+          // TODO: Mở trang giải bài tập sau
         }
       },
       {
         "title": "Quiz",
         "icon": Icons.quiz_rounded,
         "color": Colors.orange,
-        "onTap": () {
-          // TODO: Mở quiz liên quan
+        "onTap": () async {
+          // ✅ Load quiz trước khi điều hướng
+          await quizController.loadQuiz(subject, grade);
+
+          // ✅ Điều hướng sang QuizDetailScreen
+          Get.toNamed(
+            AppRoutes.quizDetail,
+            arguments: {
+              'subject': subject,
+              'grade': grade,
+            },
+          );
         }
       },
       {
@@ -57,7 +69,7 @@ class SubjectDetailScreen extends StatelessWidget {
         "icon": Icons.article_rounded,
         "color": Colors.purple,
         "onTap": () {
-          // TODO: Mở bộ đề thi
+          // TODO: Mở bộ đề thi sau
         }
       },
     ];
@@ -146,7 +158,7 @@ class SubjectDetailScreen extends StatelessWidget {
                               ),
                             ),
 
-                            // **Thanh tiến trình chỉ cho thẻ "Lý thuyết"**
+                            // ✅ Thanh tiến trình chỉ cho "Lý thuyết"
                             if (card["title"] == "Lý thuyết") ...[
                               const SizedBox(height: 12),
                               Obx(() {

@@ -1,11 +1,13 @@
 import 'package:get/get.dart';
 import '../screens/course_screen.dart';
 import '../screens/login_screen.dart';
+import '../screens/quiz_screen.dart';
 import '../screens/register_screen.dart';
 import '../screens/main_screen.dart';
 import '../screens/subject_detail_screen.dart';
 import '../screens/theory_screen.dart';
 import '../screens/lesson_detail_screen.dart';
+import '../screens/quiz_detail_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {
@@ -46,7 +48,6 @@ class AppPages {
       ),
       transition: Transition.fadeIn,
     ),
-    // ✅ Thêm route mới cho LessonDetailScreen
     GetPage(
       name: AppRoutes.lessonDetail,
       page: () => LessonDetailScreen(
@@ -54,6 +55,21 @@ class AppPages {
         content: Get.arguments['content'],
         videoUrl: Get.arguments['videoUrl'],
       ),
+      transition: Transition.cupertino,
+    ),
+
+    GetPage(
+      name: AppRoutes.quizDetail,
+      page: () => QuizDetailScreen(
+        subject: Get.arguments['subject'],
+        grade: Get.arguments['grade'],
+      ),
+      transition: Transition.rightToLeftWithFade,
+    ),
+
+    GetPage(
+      name: AppRoutes.quiz,
+      page: () => QuizScreen(),
       transition: Transition.cupertino,
     ),
   ];
