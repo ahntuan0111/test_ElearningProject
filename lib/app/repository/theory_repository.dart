@@ -9,7 +9,6 @@ class TheoryRepository {
     try {
       // Lấy tên file theo môn học + lớp
       String fileName = _getFileName(subject, grade);
-
       // Đọc file JSON từ thư mục assets
       final String response = await rootBundle.loadString('assets/$fileName');
       final data = json.decode(response);

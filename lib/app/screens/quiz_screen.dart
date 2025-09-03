@@ -1,5 +1,8 @@
+// lib/screens/quiz_screen.dart
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_10/app/screens/inline_latex_text.dart';
+import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:get/get.dart';
 import '../controllers/quiz_controller.dart';
 
@@ -112,7 +115,6 @@ class _QuizScreenState extends State<QuizScreen> {
         ),
         backgroundColor: Colors.green.shade600,
         actions: [
-          // ⏳ Đồng hồ đếm ngược trên AppBar
           Padding(
             padding: const EdgeInsets.only(right: 16),
             child: Center(
@@ -121,9 +123,7 @@ class _QuizScreenState extends State<QuizScreen> {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: remainingSeconds <= 30
-                      ? Colors.red
-                      : Colors.white,
+                  color: remainingSeconds <= 30 ? Colors.red : Colors.white,
                 ),
               ),
             ),
@@ -142,21 +142,22 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
             const SizedBox(height: 12),
 
-            // Nội dung câu hỏi
-            Text(
-              currentQ['question'],
-              style: const TextStyle(fontSize: 16),
+            // Nội dung câu hỏi (dùng InlineLatexText để giữ font tiếng Việt cho phần plain)
+            InlineLatexText(
+              text: currentQ['question'] as String,
+              fontSize: 17,
+              fontWeight: FontWeight.w500,
             ),
             const SizedBox(height: 20),
 
             // Danh sách đáp án
             Expanded(
               child: ListView.builder(
-                itemCount: currentQ['options'].length,
+                itemCount: (currentQ['options'] as List).length,
                 itemBuilder: (context, index) {
-                  final option = currentQ['options'][index];
+                  final option = (currentQ['options'] as List)[index] as String;
                   final selected = selectedAnswers[currentQuestion] == index;
-                  final isCorrect = currentQ['answer'] == index;
+                  final isCorrect = (currentQ['answer'] as int) == index;
 
                   Color borderColor = Colors.grey.shade400;
                   Color textColor = Colors.black;
@@ -206,13 +207,12 @@ class _QuizScreenState extends State<QuizScreen> {
                                 : Colors.grey,
                           ),
                           const SizedBox(width: 12),
+                          // Dùng InlineLatexText để render option (có hoặc không có LaTeX)
                           Expanded(
-                            child: Text(
-                              option,
-                              style: TextStyle(
-                                fontSize: 16,
-                                color: textColor,
-                              ),
+                            child: InlineLatexText(
+                              text: option,
+                              fontSize: 16,
+                              color: textColor,
                             ),
                           ),
                         ],
@@ -281,9 +281,8 @@ class _QuizScreenState extends State<QuizScreen> {
                   _submitQuiz();
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: isSubmitted
-                      ? Colors.grey.shade400
-                      : Colors.green.shade600,
+                  backgroundColor:
+                  isSubmitted ? Colors.grey.shade400 : Colors.green.shade600,
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),

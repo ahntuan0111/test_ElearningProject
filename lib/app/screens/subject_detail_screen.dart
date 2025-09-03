@@ -8,15 +8,14 @@ class SubjectDetailScreen extends StatelessWidget {
   final Color primaryGreen = const Color(0xFF4CAF50);
   final int grade;
   final String subject;
+  final TheoryController controller = Get.put(TheoryController());
+  final QuizController quizController = Get.put(QuizController());
 
   SubjectDetailScreen({
     super.key,
     required this.grade,
     required this.subject,
   });
-
-  final TheoryController controller = Get.put(TheoryController());
-  final QuizController quizController = Get.put(QuizController());
 
   @override
   Widget build(BuildContext context) {

@@ -15,7 +15,7 @@
                 "Không có số nhỏ nhất"
               ],
               "answer": 0,
-              "explanation": "Số tự nhiên bắt đầu từ 0, nên 0 là số tự nhiên nhỏ nhất."
+              "explanation": "Số tự nhiên bắt đầu từ \\(0\\), nên \\(0\\) là số tự nhiên nhỏ nhất."
             },
             {
               "question": "Trong các số sau, số nào là số tự nhiên chẵn?",
@@ -26,7 +26,7 @@
                 "15"
               ],
               "answer": 2,
-              "explanation": "Số 12 chia hết cho 2, nên là số tự nhiên chẵn."
+              "explanation": "Số \\(12\\) chia hết cho \\(2\\), nên là số tự nhiên chẵn."
             },
             {
               "question": "Số nào là số nguyên tố?",
@@ -37,7 +37,7 @@
                 "8"
               ],
               "answer": 2,
-              "explanation": "Số 7 chỉ chia hết cho 1 và chính nó, nên là số nguyên tố."
+              "explanation": "Số \\(7\\) chỉ chia hết cho \\(1\\) và chính nó, nên là số nguyên tố."
             },
             {
               "question": "Phát biểu nào đúng về tập hợp số tự nhiên?",
@@ -48,7 +48,7 @@
                 "Số tự nhiên không có số 0"
               ],
               "answer": 2,
-              "explanation": "Theo định nghĩa hiện đại, tập hợp số tự nhiên bắt đầu từ 0."
+              "explanation": "Theo định nghĩa hiện đại, tập hợp số tự nhiên bắt đầu từ \\(0\\)."
             },
             {
               "question": "Phép cộng số tự nhiên có tính chất nào?",
@@ -62,7 +62,7 @@
               "explanation": "Phép cộng số tự nhiên có cả tính chất giao hoán và kết hợp."
             },
             {
-              "question": "Kết quả của 12 + 25 là:",
+              "question": "Kết quả của \\(12 + 25\\) là:",
               "options": [
                 "35",
                 "36",
@@ -70,21 +70,21 @@
                 "38"
               ],
               "answer": 2,
-              "explanation": "12 + 25 = 37."
+              "explanation": "\\(12 + 25 = 37\\)."
             },
             {
-              "question": "Số 0 cộng với số nào sẽ được số đó?",
+              "question": "Số \\(0\\) cộng với số nào sẽ được số đó?",
               "options": [
-                "Chỉ số 1",
+                "Chỉ số \\(1\\)",
                 "Bất kỳ số tự nhiên nào",
                 "Không có số nào",
                 "Chỉ số chẵn"
               ],
               "answer": 1,
-              "explanation": "Tính chất của số 0: a + 0 = a với mọi số tự nhiên a."
+              "explanation": "Tính chất của số \\(0\\): \\(a + 0 = a\\) với mọi số tự nhiên \\(a\\)."
             },
             {
-              "question": "Số lũy thừa 2^3 bằng bao nhiêu?",
+              "question": "Số lũy thừa \\(2^3\\) bằng bao nhiêu?",
               "options": [
                 "6",
                 "8",
@@ -92,10 +92,10 @@
                 "12"
               ],
               "answer": 1,
-              "explanation": "2^3 = 2 × 2 × 2 = 8."
+              "explanation": "\\(2^3 = 2 \\times 2 \\times 2 = 8\\)."
             },
             {
-              "question": "Trong các số sau, số nào chia hết cho 5?",
+              "question": "Trong các số sau, số nào chia hết cho \\(5\\)?",
               "options": [
                 "11",
                 "25",
@@ -103,7 +103,7 @@
                 "47"
               ],
               "answer": 1,
-              "explanation": "Số 25 có chữ số tận cùng là 5, nên chia hết cho 5."
+              "explanation": "Số \\(25\\) có chữ số tận cùng là \\(5\\), nên chia hết cho \\(5\\)."
             },
             {
               "question": "Thứ tự thực hiện phép tính đúng là:",
@@ -130,10 +130,10 @@
                 "5"
               ],
               "answer": 1,
-              "explanation": "Số 2 là số nguyên tố nhỏ nhất vì chỉ chia hết cho 1 và chính nó."
+              "explanation": "Số \\(2\\) là số nguyên tố nhỏ nhất vì chỉ chia hết cho \\(1\\) và chính nó."
             },
             {
-              "question": "Tập hợp A = {1, 2, 3, 4}, phần tử nào thuộc A?",
+              "question": "Tập hợp \\(A = \\{1, 2, 3, 4\\}\\), phần tử nào thuộc \\(A\\)?",
               "options": [
                 "5",
                 "4",
@@ -141,10 +141,10 @@
                 "7"
               ],
               "answer": 1,
-              "explanation": "Trong tập hợp A, số 4 nằm trong danh sách phần tử."
+              "explanation": "Trong tập hợp \\(A\\), số \\(4\\) nằm trong danh sách phần tử."
             },
             {
-              "question": "Giá trị của 5 × (3 + 7) bằng bao nhiêu?",
+              "question": "Giá trị của \\(5 \\times (3 + 7)\\) bằng bao nhiêu?",
               "options": [
                 "35",
                 "45",
@@ -152,10 +152,10 @@
                 "55"
               ],
               "answer": 2,
-              "explanation": "5 × (3 + 7) = 5 × 10 = 50."
+              "explanation": "\\(5 \\times (3 + 7) = 5 \\times 10 = 50\\)."
             },
             {
-              "question": "Số 144 chia hết cho số nào dưới đây?",
+              "question": "Số \\(144\\) chia hết cho số nào dưới đây?",
               "options": [
                 "5",
                 "7",
@@ -163,10 +163,10 @@
                 "11"
               ],
               "answer": 2,
-              "explanation": "144 ÷ 8 = 18, nên 144 chia hết cho 8."
+              "explanation": "\\(144 \\div 8 = 18\\), nên \\(144\\) chia hết cho \\(8\\)."
             },
             {
-              "question": "Số 0 có là số nguyên tố không?",
+              "question": "Số \\(0\\) có là số nguyên tố không?",
               "options": [
                 "Có",
                 "Không",
@@ -174,10 +174,10 @@
                 "Không xác định"
               ],
               "answer": 1,
-              "explanation": "Số 0 không được xem là số nguyên tố."
+              "explanation": "Số \\(0\\) không được xem là số nguyên tố."
             },
             {
-              "question": "Số nào chia hết cho 3?",
+              "question": "Số nào chia hết cho \\(3\\)?",
               "options": [
                 "12",
                 "14",
@@ -185,10 +185,10 @@
                 "20"
               ],
               "answer": 0,
-              "explanation": "12 ÷ 3 = 4, nên 12 chia hết cho 3."
+              "explanation": "\\(12 \\div 3 = 4\\), nên \\(12\\) chia hết cho \\(3\\)."
             },
             {
-              "question": "Giá trị của 7² là bao nhiêu?",
+              "question": "Giá trị của \\(7^2\\) là bao nhiêu?",
               "options": [
                 "14",
                 "28",
@@ -196,10 +196,10 @@
                 "64"
               ],
               "answer": 2,
-              "explanation": "7² = 7 × 7 = 49."
+              "explanation": "\\(7^2 = 7 \\times 7 = 49\\)."
             },
             {
-              "question": "Số 999 có chia hết cho 9 không?",
+              "question": "Số \\(999\\) có chia hết cho \\(9\\) không?",
               "options": [
                 "Có",
                 "Không",
@@ -207,10 +207,10 @@
                 "Chỉ khi chia 2 lần"
               ],
               "answer": 0,
-              "explanation": "Tổng các chữ số của 999 là 27, chia hết cho 9, nên 999 chia hết cho 9."
+              "explanation": "Tổng các chữ số của \\(999\\) là \\(27\\), chia hết cho \\(9\\), nên \\(999\\) chia hết cho \\(9\\)."
             },
             {
-              "question": "Kết quả của 45 ÷ 5 là:",
+              "question": "Kết quả của \\(45 \\div 5\\) là:",
               "options": [
                 "7",
                 "8",
@@ -218,7 +218,7 @@
                 "10"
               ],
               "answer": 2,
-              "explanation": "45 ÷ 5 = 9."
+              "explanation": "\\(45 \\div 5 = 9\\)."
             },
             {
               "question": "Số nào là số lẻ?",
@@ -229,10 +229,10 @@
                 "28"
               ],
               "answer": 2,
-              "explanation": "Số 21 không chia hết cho 2, nên là số lẻ."
+              "explanation": "Số \\(21\\) không chia hết cho \\(2\\), nên là số lẻ."
             },
             {
-              "question": "Số tự nhiên liên tiếp giữa 10 và 15 là:",
+              "question": "Số tự nhiên liên tiếp giữa \\(10\\) và \\(15\\) là:",
               "options": [
                 "11,12,13,14",
                 "12,13,14,15",
@@ -240,10 +240,10 @@
                 "13,14,15,16"
               ],
               "answer": 0,
-              "explanation": "Các số tự nhiên liên tiếp giữa 10 và 15 là 11, 12, 13, 14."
+              "explanation": "Các số tự nhiên liên tiếp giữa \\(10\\) và \\(15\\) là \\(11,12,13,14\\)."
             },
             {
-              "question": "Số nào là bội của 6?",
+              "question": "Số nào là bội của \\(6\\)?",
               "options": [
                 "8",
                 "12",
@@ -251,10 +251,10 @@
                 "22"
               ],
               "answer": 1,
-              "explanation": "12 chia hết cho 6 nên là bội của 6."
+              "explanation": "\\(12\\) chia hết cho \\(6\\) nên là bội của \\(6\\)."
             },
             {
-              "question": "Giá trị của 15 + 27 - 10 là:",
+              "question": "Giá trị của \\(15 + 27 - 10\\) là:",
               "options": [
                 "32",
                 "33",
@@ -262,7 +262,7 @@
                 "35"
               ],
               "answer": 2,
-              "explanation": "15 + 27 = 42; 42 - 10 = 32."
+              "explanation": "\\(15 + 27 = 42\\); \\(42 - 10 = 32\\)."
             },
             {
               "question": "Trong các số sau, số nào là số chẵn?",
@@ -273,10 +273,10 @@
                 "33"
               ],
               "answer": 2,
-              "explanation": "28 chia hết cho 2 nên là số chẵn."
+              "explanation": "\\(28\\) chia hết cho \\(2\\) nên là số chẵn."
             },
             {
-              "question": "Số nào không chia hết cho 4?",
+              "question": "Số nào không chia hết cho \\(4\\)?",
               "options": [
                 "8",
                 "12",
@@ -284,10 +284,10 @@
                 "18"
               ],
               "answer": 3,
-              "explanation": "18 ÷ 4 không ra số nguyên, nên 18 không chia hết cho 4."
+              "explanation": "\\(18 \\div 4\\) không ra số nguyên, nên \\(18\\) không chia hết cho \\(4\\)."
             },
             {
-              "question": "Kết quả của 100 ÷ 10 là:",
+              "question": "Kết quả của \\(100 \\div 10\\) là:",
               "options": [
                 "5",
                 "8",
@@ -295,10 +295,10 @@
                 "10"
               ],
               "answer": 3,
-              "explanation": "100 ÷ 10 = 10."
+              "explanation": "\\(100 \\div 10 = 10\\)."
             },
             {
-              "question": "Số nào là ước chung của 12 và 18?",
+              "question": "Số nào là ước chung của \\(12\\) và \\(18\\)?",
               "options": [
                 "3",
                 "4",
@@ -306,10 +306,10 @@
                 "7"
               ],
               "answer": 0,
-              "explanation": "3 là ước chung vì cả 12 và 18 đều chia hết cho 3."
+              "explanation": "\\(3\\) là ước chung vì cả \\(12\\) và \\(18\\) đều chia hết cho \\(3\\)."
             },
             {
-              "question": "Số nào là bội chung nhỏ nhất của 4 và 6?",
+              "question": "Số nào là bội chung nhỏ nhất của \\(4\\) và \\(6\\)?",
               "options": [
                 "12",
                 "18",
@@ -317,10 +317,10 @@
                 "36"
               ],
               "answer": 0,
-              "explanation": "Bội chung nhỏ nhất của 4 và 6 là 12."
+              "explanation": "Bội chung nhỏ nhất của \\(4\\) và \\(6\\) là \\(12\\)."
             },
             {
-              "question": "Tổng của 1 đến 5 là:",
+              "question": "Tổng của \\(1\\) đến \\(5\\) là:",
               "options": [
                 "10",
                 "12",
@@ -328,7 +328,7 @@
                 "20"
               ],
               "answer": 2,
-              "explanation": "1 + 2 + 3 + 4 + 5 = 15."
+              "explanation": "\\(1 + 2 + 3 + 4 + 5 = 15\\)."
             }
           ]
         }
@@ -342,113 +342,69 @@
           "questions": [
             {
               "question": "Số nguyên âm lớn nhất là số nào?",
-              "options": [
-                "-1",
-                "-2",
-                "-3",
-                "-5"
-              ],
+              "options": ["-1", "-2", "-3", "-5"],
               "answer": 0,
               "explanation": "Trong các số nguyên âm, -1 là số lớn nhất vì gần 0 nhất."
             },
             {
               "question": "Giá trị của (-5) + 3 là:",
-              "options": [
-                "-8",
-                "-2",
-                "2",
-                "8"
-              ],
+              "options": ["-8", "-2", "2", "8"],
               "answer": 1,
               "explanation": "(-5) + 3 = -2."
             },
             {
               "question": "Trong các số sau, số nào là số nguyên?",
-              "options": [
-                "2.5",
-                "3",
-                "0.7",
-                "1.2"
-              ],
+              "options": ["2.5", "3", "0.7", "1.2"],
               "answer": 1,
               "explanation": "Số 3 là số nguyên vì không có phần thập phân."
             },
             {
               "question": "Giá trị tuyệt đối của -7 là:",
-              "options": [
-                "-7",
-                "7",
-                "0",
-                "Không xác định"
-              ],
+              "options": ["-7", "7", "0", "Không xác định"],
               "answer": 1,
               "explanation": "Giá trị tuyệt đối của -7 là 7."
             },
             {
               "question": "Số nguyên 0 là:",
-              "options": [
-                "Dương",
-                "Âm",
-                "Vừa âm vừa dương",
-                "Không âm không dương"
-              ],
+              "options": ["Dương", "Âm", "Vừa âm vừa dương", "Không âm không dương"],
               "answer": 3,
               "explanation": "Số 0 không âm cũng không dương."
             },
             {
               "question": "Kết quả của (-3) × 4 là:",
-              "options": [
-                "-12",
-                "12",
-                "7",
-                "0"
-              ],
+              "options": ["-12", "12", "7", "0"],
               "answer": 0,
               "explanation": "Số âm nhân với số dương thì ra số âm, nên (-3) × 4 = -12."
             },
             {
               "question": "Trong các số sau, số nào nhỏ nhất?",
-              "options": [
-                "-8",
-                "-10",
-                "-5",
-                "-7"
-              ],
+              "options": ["-8", "-10", "-5", "-7"],
               "answer": 1,
               "explanation": "Số -10 nhỏ nhất vì cách xa 0 nhất về phía âm."
             },
             {
               "question": "Số nguyên nào chia hết cho 5?",
-              "options": [
-                "7",
-                "10",
-                "12",
-                "14"
-              ],
+              "options": ["7", "10", "12", "14"],
               "answer": 1,
               "explanation": "10 chia hết cho 5, vì 10 ÷ 5 = 2."
             },
             {
               "question": "Giá trị của (-2) × (-3) là:",
-              "options": [
-                "-6",
-                "6",
-                "5",
-                "0"
-              ],
+              "options": ["-6", "6", "5", "0"],
               "answer": 1,
               "explanation": "Số âm nhân số âm thì ra số dương, nên kết quả là 6."
             },
             {
               "question": "Số nguyên liên tiếp từ -2 đến 2 gồm:",
-              "options": [
-                "-2,-1,0,1,2",
-                "-2,-1,1,2",
-                "-1,0,1",
-                "0,1,2"
-              ],
+              "options": ["-2,-1,0,1,2", "-2,-1,1,2", "-1,0,1", "0,1,2"],
               "answer": 0,
               "explanation": "Các số nguyên liên tiếp từ -2 đến 2 gồm: -2,-1,0,1,2."
+            },
+            {
+              "question": "Tính giá trị của biểu thức: $\\dfrac{|{-8}| + 2^3}{4}$",
+              "options": ["2", "3", "4", "5"],
+              "answer": 2,
+              "explanation": "Ta có $|{-8}| = 8$ và $2^3 = 8$, nên biểu thức bằng $(8 + 8)/4 = 16/4 = 4$."
             }
           ]
         },
@@ -457,179 +413,455 @@
           "questions": [
             {
               "question": "Giá trị của (-5) + 8 là bao nhiêu?",
-              "options": [
-                "2",
-                "3",
-                "5",
-                "8"
-              ],
+              "options": ["2", "3", "5", "8"],
               "answer": 1,
               "explanation": "(-5) + 8 = 3."
             },
             {
               "question": "Trong các số sau, số nào là số âm?",
-              "options": [
-                "5",
-                "-3",
-                "0",
-                "2"
-              ],
+              "options": ["5", "-3", "0", "2"],
               "answer": 1,
               "explanation": "Số -3 là số âm."
             },
             {
               "question": "Giá trị của (-12) ÷ 4 là:",
-              "options": [
-                "3",
-                "-3",
-                "4",
-                "-4"
-              ],
+              "options": ["3", "-3", "4", "-4"],
               "answer": 1,
               "explanation": "(-12) ÷ 4 = -3."
             },
             {
               "question": "Số nào nhỏ hơn tất cả?",
-              "options": [
-                "-7",
-                "-10",
-                "-5",
-                "-2"
-              ],
+              "options": ["-7", "-10", "-5", "-2"],
               "answer": 1,
               "explanation": "Số -10 nhỏ nhất vì xa 0 nhất về phía âm."
             },
             {
               "question": "Kết quả của 7 - (-3) là:",
-              "options": [
-                "4",
-                "7",
-                "10",
-                "13"
-              ],
+              "options": ["4", "7", "10", "13"],
               "answer": 2,
               "explanation": "7 - (-3) = 7 + 3 = 10."
             },
             {
               "question": "Giá trị của (-2) × 6 là:",
-              "options": [
-                "-12",
-                "12",
-                "10",
-                "0"
-              ],
+              "options": ["-12", "12", "10", "0"],
               "answer": 0,
               "explanation": "Số âm nhân với số dương thì ra số âm, nên kết quả là -12."
             },
             {
               "question": "Số nào là bội của 7?",
-              "options": [
-                "14",
-                "15",
-                "16",
-                "18"
-              ],
+              "options": ["14", "15", "16", "18"],
               "answer": 0,
               "explanation": "14 ÷ 7 = 2, nên 14 là bội của 7."
             },
             {
               "question": "Giá trị của 3² - 4² là:",
-              "options": [
-                "-7",
-                "-8",
-                "-9",
-                "-10"
-              ],
+              "options": ["-7", "-8", "-9", "-10"],
               "answer": 2,
               "explanation": "3² - 4² = 9 - 16 = -7."
             },
             {
               "question": "Số đối của 9 là:",
-              "options": [
-                "-9",
-                "9",
-                "0",
-                "1"
-              ],
+              "options": ["-9", "9", "0", "1"],
               "answer": 0,
               "explanation": "Số đối của 9 là -9."
             },
             {
               "question": "Tổng của (-4) + (-6) là:",
-              "options": [
-                "-2",
-                "-5",
-                "-8",
-                "-10"
-              ],
+              "options": ["-2", "-5", "-8", "-10"],
               "answer": 3,
               "explanation": "(-4) + (-6) = -10."
             },
             {
               "question": "Giá trị của |-15| là:",
-              "options": [
-                "-15",
-                "15",
-                "0",
-                "Không xác định"
-              ],
+              "options": ["-15", "15", "0", "Không xác định"],
               "answer": 1,
               "explanation": "Giá trị tuyệt đối của -15 là 15."
             },
             {
               "question": "Kết quả của (-2)³ là:",
-              "options": [
-                "-8",
-                "8",
-                "4",
-                "0"
-              ],
+              "options": ["-8", "8", "4", "0"],
               "answer": 0,
               "explanation": "(-2)³ = (-2) × (-2) × (-2) = -8."
             },
             {
               "question": "Trong các số sau, số nào chia hết cho 9?",
-              "options": [
-                "18",
-                "20",
-                "22",
-                "25"
-              ],
+              "options": ["18", "20", "22", "25"],
               "answer": 0,
               "explanation": "18 ÷ 9 = 2, nên 18 chia hết cho 9."
             },
             {
               "question": "Số nào là ước của 36?",
-              "options": [
-                "7",
-                "9",
-                "11",
-                "13"
-              ],
+              "options": ["7", "9", "11", "13"],
               "answer": 1,
               "explanation": "36 ÷ 9 = 4, nên 9 là ước của 36."
             },
             {
               "question": "Kết quả của (-20) ÷ (-4) là:",
-              "options": [
-                "-5",
-                "5",
-                "4",
-                "-4"
-              ],
+              "options": ["-5", "5", "4", "-4"],
               "answer": 1,
               "explanation": "Số âm chia số âm thì ra số dương, nên (-20) ÷ (-4) = 5."
             },
             {
               "question": "Số nào lớn hơn 0?",
-              "options": [
-                "-3",
-                "0",
-                "4",
-                "-7"
-              ],
+              "options": ["-3", "0", "4", "-7"],
               "answer": 2,
               "explanation": "Số 4 lớn hơn 0."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Chương 3: Phân số và số thập phân",
+      "sets": [
+        {
+          "title": "Bộ câu hỏi 15p",
+          "questions": [
+            {
+              "question": "Phân số nào bằng \\( \\dfrac{1}{2} \\)?",
+              "options": [
+                "\\( \\dfrac{2}{4} \\)",
+                "\\( \\dfrac{3}{5} \\)",
+                "\\( \\dfrac{4}{5} \\)",
+                "\\( \\dfrac{3}{8} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( \\dfrac{2}{4} \\) rút gọn thành \\( \\dfrac{1}{2} \\)."
+            },
+            {
+              "question": "Số thập phân \\( 0.75 \\) bằng phân số nào?",
+              "options": [
+                "\\( \\dfrac{3}{4} \\)",
+                "\\( \\dfrac{7}{10} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{2}{5} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( 0.75 = \\dfrac{75}{100} = \\dfrac{3}{4} \\)."
+            },
+            {
+              "question": "Tổng của \\( \\dfrac{1}{3} + \\dfrac{1}{6} \\) bằng bao nhiêu?",
+              "options": [
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{1}{6} \\)",
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{5}{6} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( \\dfrac{1}{3} = \\dfrac{2}{6} \\), nên \\( \\dfrac{2}{6} + \\dfrac{1}{6} = \\dfrac{3}{6} = \\dfrac{1}{2} \\)."
+            },
+            {
+              "question": "Phân số nào lớn hơn?",
+              "options": [
+                "\\( \\dfrac{3}{5} \\)",
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{4}{9} \\)",
+                "\\( \\dfrac{5}{12} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{2}{3} \\approx 0.666 \\), lớn hơn các phân số còn lại."
+            },
+            {
+              "question": "Số thập phân nào bằng \\( \\dfrac{1}{4} \\)?",
+              "options": [
+                "\\( 0.2 \\)",
+                "\\( 0.25 \\)",
+                "\\( 0.3 \\)",
+                "\\( 0.4 \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{1}{4} = \\dfrac{25}{100} = 0.25 \\)."
+            },
+            {
+              "question": "Phân số \\( \\dfrac{6}{9} \\) rút gọn thành:",
+              "options": [
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{3}{4} \\)",
+                "\\( \\dfrac{4}{5} \\)",
+                "\\( \\dfrac{5}{6} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( \\dfrac{6}{9} \\div 3 = \\dfrac{2}{3} \\)."
+            },
+            {
+              "question": "Kết quả của \\( 0.5 \\times 0.2 \\) bằng:",
+              "options": [
+                "\\( 0.01 \\)",
+                "\\( 0.1 \\)",
+                "\\( 0.15 \\)",
+                "\\( 0.2 \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( 0.5 \\times 0.2 = 0.10 \\)."
+            },
+            {
+              "question": "Phép chia \\( \\dfrac{3}{4} \\div \\dfrac{1}{2} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{3}{8} \\)",
+                "\\( \\dfrac{3}{2} \\)",
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{1}{4} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{3}{4} \\div \\dfrac{1}{2} = \\dfrac{3}{4} \\times \\dfrac{2}{1} = \\dfrac{6}{4} = \\dfrac{3}{2} \\)."
+            },
+            {
+              "question": "Trong các số sau, số nào là số thập phân hữu hạn?",
+              "options": [
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{1}{3} \\)",
+                "\\( \\dfrac{2}{7} \\)",
+                "\\( \\dfrac{5}{6} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( \\dfrac{1}{2} = 0.5 \\) là số thập phân hữu hạn."
+            },
+            {
+              "question": "Số \\( 0.333\\ldots \\) là dạng số gì?",
+              "options": [
+                "Số nguyên",
+                "Số thập phân hữu hạn",
+                "Số thập phân vô hạn tuần hoàn",
+                "Số vô tỉ"
+              ],
+              "answer": 2,
+              "explanation": "\\( 0.333\\ldots \\) là số thập phân vô hạn tuần hoàn vì các chữ số 3 lặp lại mãi."
+            }
+          ]
+        },
+        {
+          "title": "Bộ câu hỏi 30p",
+          "questions": [
+            {
+              "question": "Phân số nào bằng \\( 0.6 \\)?",
+              "options": [
+                "\\( \\dfrac{3}{5} \\)",
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{1}{4} \\)",
+                "\\( \\dfrac{5}{8} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( 0.6 = \\dfrac{6}{10} = \\dfrac{3}{5} \\)."
+            },
+            {
+              "question": "Tổng của \\( \\dfrac{2}{5} + \\dfrac{3}{10} \\) là:",
+              "options": [
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{7}{10} \\)",
+                "\\( \\dfrac{9}{10} \\)",
+                "\\( \\dfrac{4}{5} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{2}{5} = \\dfrac{4}{10} \\), \\( \\dfrac{4}{10} + \\dfrac{3}{10} = \\dfrac{7}{10} \\)."
+            },
+            {
+              "question": "Phân số nào bé nhất?",
+              "options": [
+                "\\( \\dfrac{3}{8} \\)",
+                "\\( \\dfrac{5}{12} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{7}{16} \\)"
+              ],
+              "answer": 3,
+              "explanation": "\\( \\dfrac{7}{16} \\approx 0.4375 \\), nhỏ hơn các phân số còn lại."
+            },
+            {
+              "question": "Phép nhân \\( \\dfrac{3}{4} \\times \\dfrac{2}{5} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{6}{9} \\)",
+                "\\( \\dfrac{6}{20} \\)",
+                "\\( \\dfrac{3}{10} \\)",
+                "\\( \\dfrac{6}{15} \\)"
+              ],
+              "answer": 2,
+              "explanation": "\\( \\dfrac{3}{4} \\times \\dfrac{2}{5} = \\dfrac{6}{20} = \\dfrac{3}{10} \\)."
+            },
+            {
+              "question": "Số nào bằng \\( \\dfrac{7}{8} \\)?",
+              "options": [
+                "\\( 0.75 \\)",
+                "\\( 0.8 \\)",
+                "\\( 0.875 \\)",
+                "\\( 0.9 \\)"
+              ],
+              "answer": 2,
+              "explanation": "\\( \\dfrac{7}{8} = 0.875 \\)."
+            },
+            {
+              "question": "Giá trị của \\( \\dfrac{5}{6} + \\dfrac{1}{3} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{5}{6} \\)",
+                "\\( \\dfrac{7}{6} \\)",
+                "\\( 1 \\)",
+                "\\( \\dfrac{2}{3} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{1}{3} = \\dfrac{2}{6} \\), nên \\( \\dfrac{5}{6} + \\dfrac{2}{6} = \\dfrac{7}{6} \\)."
+            },
+            {
+              "question": "Phân số nào lớn hơn \\( \\dfrac{2}{3} \\)?",
+              "options": [
+                "\\( \\dfrac{3}{4} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{5}{9} \\)",
+                "\\( \\dfrac{7}{12} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( \\dfrac{3}{4} = 0.75 \\), lớn hơn \\( \\dfrac{2}{3} \\approx 0.666 \\)."
+            },
+            {
+              "question": "\\( 0.125 \\) bằng phân số nào?",
+              "options": [
+                "\\( \\dfrac{1}{8} \\)",
+                "\\( \\dfrac{1}{4} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{3}{8} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( 0.125 = \\dfrac{125}{1000} = \\dfrac{1}{8} \\)."
+            },
+            {
+              "question": "Phép trừ \\( \\dfrac{7}{8} - \\dfrac{1}{4} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{3}{8} \\)",
+                "\\( \\dfrac{5}{8} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{7}{12} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{1}{4} = \\dfrac{2}{8} \\), \\( \\dfrac{7}{8} - \\dfrac{2}{8} = \\dfrac{5}{8} \\)."
+            },
+            {
+              "question": "Số nào là số thập phân vô hạn không tuần hoàn?",
+              "options": [
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{1}{3} \\)",
+                "\\( \\sqrt{2} \\)",
+                "\\( \\dfrac{2}{5} \\)"
+              ],
+              "answer": 2,
+              "explanation": "\\( \\sqrt{2} \\approx 1.414\\ldots \\) là số thập phân vô hạn không tuần hoàn."
+            },
+            {
+              "question": "Phân số nào bằng \\( 0.2 \\)?",
+              "options": [
+                "\\( \\dfrac{1}{4} \\)",
+                "\\( \\dfrac{1}{5} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{2}{5} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( 0.2 = \\dfrac{2}{10} = \\dfrac{1}{5} \\)."
+            },
+            {
+              "question": "Tổng của \\( \\dfrac{3}{8} + \\dfrac{5}{16} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{11}{16} \\)",
+                "\\( \\dfrac{13}{16} \\)",
+                "\\( \\dfrac{15}{16} \\)",
+                "\\( \\dfrac{17}{16} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{3}{8} = \\dfrac{6}{16} \\), \\( \\dfrac{6}{16} + \\dfrac{5}{16} = \\dfrac{11}{16} \\)."
+            },
+            {
+              "question": "Số thập phân \\( 0.6 \\) bằng phân số nào?",
+              "options": [
+                "\\( \\dfrac{3}{5} \\)",
+                "\\( \\dfrac{2}{5} \\)",
+                "\\( \\dfrac{1}{3} \\)",
+                "\\( \\dfrac{5}{8} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( 0.6 = \\dfrac{6}{10} = \\dfrac{3}{5} \\)."
+            },
+            {
+              "question": "Kết quả của \\( 1.5 \\times 0.2 \\) là:",
+              "options": [
+                "\\( 0.3 \\)",
+                "\\( 0.25 \\)",
+                "\\( 0.35 \\)",
+                "\\( 0.4 \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( 1.5 \\times 0.2 = 0.3 \\)."
+            },
+            {
+              "question": "Phép chia \\( \\dfrac{2}{3} \\div \\dfrac{4}{5} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{5}{6} \\)",
+                "\\( \\dfrac{3}{10} \\)",
+                "\\( \\dfrac{8}{15} \\)",
+                "\\( \\dfrac{5}{8} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( \\dfrac{2}{3} \\div \\dfrac{4}{5} = \\dfrac{2}{3} \\times \\dfrac{5}{4} = \\dfrac{10}{12} = \\dfrac{5}{6} \\)."
+            },
+            {
+              "question": "Số nào nhỏ hơn \\( 0.5 \\)?",
+              "options": [
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{3}{4} \\)",
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{1}{3} \\)"
+              ],
+              "answer": 3,
+              "explanation": "\\( \\dfrac{1}{3} \\approx 0.333 \\) nhỏ hơn \\( 0.5 \\)."
+            },
+            {
+              "question": "Số thập phân \\( 1.25 \\) bằng phân số nào?",
+              "options": [
+                "\\( \\dfrac{5}{4} \\)",
+                "\\( \\dfrac{4}{5} \\)",
+                "\\( \\dfrac{3}{2} \\)",
+                "\\( \\dfrac{6}{5} \\)"
+              ],
+              "answer": 0,
+              "explanation": "\\( 1.25 = \\dfrac{125}{100} = \\dfrac{5}{4} \\)."
+            },
+            {
+              "question": "Trong các số sau, số nào là số hữu tỉ?",
+              "options": [
+                "\\( \\sqrt{2} \\)",
+                "\\( \\pi \\)",
+                "\\( \\dfrac{1}{3} \\)",
+                "\\( \\sqrt{3} \\)"
+              ],
+              "answer": 2,
+              "explanation": "\\( \\dfrac{1}{3} \\) là số hữu tỉ vì biểu diễn được dưới dạng \\( \\dfrac{a}{b} \\)."
+            },
+            {
+              "question": "Tổng của \\( 0.4 + 0.35 \\) bằng:",
+              "options": [
+                "\\( 0.65 \\)",
+                "\\( 0.7 \\)",
+                "\\( 0.75 \\)",
+                "\\( 0.8 \\)"
+              ],
+              "answer": 2,
+              "explanation": "\\( 0.4 + 0.35 = 0.75 \\)."
+            },
+            {
+              "question": "Phân số \\( \\dfrac{10}{20} \\) rút gọn thành:",
+              "options": [
+                "\\( \\dfrac{1}{4} \\)",
+                "\\( \\dfrac{1}{2} \\)",
+                "\\( \\dfrac{2}{3} \\)",
+                "\\( \\dfrac{3}{4} \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\dfrac{10}{20} \\div 10 = \\dfrac{1}{2} \\)."
+            },
+            {
+              "question": "Giá trị của biểu thức \\( \\sqrt{\\dfrac{81}{16}} + \\dfrac{2^3}{4} \\) bằng:",
+              "options": [
+                "\\( \\dfrac{7}{2} \\)",
+                "\\( \\dfrac{9}{2} \\)",
+                "\\( \\dfrac{11}{2} \\)",
+                "\\( 5 \\)"
+              ],
+              "answer": 1,
+              "explanation": "\\( \\sqrt{\\dfrac{81}{16}} = \\dfrac{9}{4} \\). \\( 2^3 = 8 \\), nên \\( \\dfrac{8}{4} = 2 \\). Vậy \\( \\dfrac{9}{4} + 2 = \\dfrac{9}{4} + \\dfrac{8}{4} = \\dfrac{17}{4} = \\dfrac{9}{2} \\)."
             }
           ]
         }
