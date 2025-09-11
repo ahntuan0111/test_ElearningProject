@@ -1,0 +1,111 @@
+{
+    "chapters": [
+      {
+        "title": "Chủ đề 1: Tình yêu quê hương đất nước",
+        "lessons": [
+          {
+            "title": "Bài 1: Quê hương (Đỗ Trung Quân)",
+            "content": "Đọc hiểu văn bản Quê hương của Đỗ Trung Quân.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 2: Mùa xuân làng lúa làng hoa (Trần Quốc Toản)",
+            "content": "Đọc hiểu văn bản Mùa xuân làng lúa làng hoa.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 3: Côn Sơn ca (Nguyễn Trãi)",
+            "content": "Đọc hiểu văn bản Côn Sơn ca trích Nguyễn Trãi.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 4: Viết",
+            "content": "Viết bài văn miêu tả cảnh quê hương.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 5: Nói và nghe",
+            "content": "Kể về một kỷ niệm gắn bó với quê hương.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 6: Hoạt động trải nghiệm",
+            "content": "Tìm hiểu về một địa danh hoặc phong tục quê hương.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          }
+        ]
+      },
+      {
+        "title": "Chủ đề 2: Truyền thống tốt đẹp của dân tộc",
+        "lessons": [
+          {
+            "title": "Bài 1: Thánh Gióng",
+            "content": "Đọc hiểu truyện truyền thuyết Thánh Gióng.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 2: Sự tích Hồ Gươm",
+            "content": "Đọc hiểu truyện truyền thuyết Sự tích Hồ Gươm.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 3: Tinh thần yêu nước của nhân dân ta (Hồ Chí Minh)",
+            "content": "Đọc hiểu văn bản nghị luận Tinh thần yêu nước của nhân dân ta.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 4: Viết",
+            "content": "Viết đoạn văn về một truyền thống tốt đẹp của dân tộc.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 5: Nói và nghe",
+            "content": "Thuyết trình về một truyền thống văn hóa hoặc lịch sử.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 6: Hoạt động trải nghiệm",
+            "content": "Sưu tầm tư liệu về một truyền thống dân tộc.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          }
+        ]
+      },
+      {
+        "title": "Chủ đề 3: Tình cảm gia đình",
+        "lessons": [
+          {
+            "title": "Bài 1: Cuộc chia tay của những con búp bê (Khánh Hoài)",
+            "content": "Đọc hiểu truyện ngắn Cuộc chia tay của những con búp bê.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 2: Mẹ tôi (Ét-môn-đô đơ A-mi-xi)",
+            "content": "Đọc hiểu văn bản Mẹ tôi.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 3: Bức tranh của em gái tôi (Tạ Duy Anh)",
+            "content": "Đọc hiểu truyện ngắn Bức tranh của em gái tôi.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 4: Viết",
+            "content": "Viết bài văn kể về tình cảm gia đình.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 5: Nói và nghe",
+            "content": "Thảo luận về giá trị của tình cảm gia đình.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          },
+          {
+            "title": "Bài 6: Hoạt động trải nghiệm",
+            "content": "Ghi chép về một kỷ niệm đáng nhớ với người thân.",
+            "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          }
+        ]
+      }
+    ]
+      
+  }
+  

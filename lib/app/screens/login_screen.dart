@@ -7,6 +7,8 @@
     final UserController userController = Get.find<UserController>();
     final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
+  LoginScreen({super.key});
+
     @override
     Widget build(BuildContext context) {
       return Scaffold(
@@ -55,7 +57,6 @@
                     onPressed: () async {
                       await userController.loginUser(_formKey);
                     },
-                    child: Text("Login"),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
                       foregroundColor: Colors.white,
@@ -68,6 +69,7 @@
                       ),
                       elevation: 5,
                     ),
+                    child: Text("Login"),
                   ),
                 ),
 

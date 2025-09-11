@@ -8,13 +8,13 @@ class TheoryScreen extends StatelessWidget {
   final int grade;
   final Color primaryGreen = const Color(0xFF4CAF50);
 
-  TheoryScreen({Key? key, required this.subject, required this.grade})
-      : super(key: key);
+  const TheoryScreen({super.key, required this.subject, required this.grade});
 
   @override
   Widget build(BuildContext context) {
-    final TheoryController controller = Get.put(TheoryController());
-    controller.loadTheory(subject, grade);
+    final TheoryController controller = Get.find<TheoryController>();
+    controller.loadTheory(subject, grade); // load 1 lần thôi
+
 
     return Scaffold(
       appBar: AppBar(

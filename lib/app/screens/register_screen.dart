@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_10/app/controllers/theme_controller.dart';
 import 'package:flutter_application_10/app/controllers/user_controller.dart';
 import 'package:flutter_application_10/app/routes/app_routes.dart';
 import 'package:get/get.dart';
@@ -7,6 +6,8 @@ import 'package:get/get.dart';
 class RegisterScreen extends StatelessWidget {
   final UserController userController = Get.find<UserController>();
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  RegisterScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -99,7 +100,6 @@ class RegisterScreen extends StatelessWidget {
                     onPressed: () async {
                       await userController.registerUser(_formKey);
                     },
-                    child: Text("Register"),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
                       foregroundColor: Colors.white,
@@ -112,6 +112,7 @@ class RegisterScreen extends StatelessWidget {
                       ),
                       elevation: 5,
                     ),
+                    child: Text("Register"),
                   ),
                 ),
 

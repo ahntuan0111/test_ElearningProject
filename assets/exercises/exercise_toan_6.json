@@ -1,0 +1,19 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "question": "Tính giá trị biểu thức: 2 + 3 × 4",
+      "solution": "Theo thứ tự nhân chia trước: 2 + (3 × 4) = 2 + 12 = 14"
+    },
+    {
+      "id": 2,
+      "question": "Rút gọn: 18/24",
+      "solution": "Ước chung lớn nhất của 18 và 24 là 6. Chia cả tử và mẫu cho 6: 18/24 = 3/4"
+    },
+    {
+      "id": 3,
+      "question": "Tìm x: 2x + 5 = 11",
+      "solution": "2x = 11 - 5 = 6 → x = 6/2 = 3"
+    }
+  ]
+}

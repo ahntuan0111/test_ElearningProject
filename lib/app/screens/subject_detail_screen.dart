@@ -19,7 +19,7 @@ class SubjectDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Load dữ liệu lý thuyết cho môn + khối
+    // Load dữ liệu lý thuyết
     controller.loadTheory(subject, grade);
 
     final List<Map<String, dynamic>> featureCards = [
@@ -30,10 +30,7 @@ class SubjectDetailScreen extends StatelessWidget {
         "onTap": () {
           Get.toNamed(
             AppRoutes.theory,
-            arguments: {
-              'subject': subject,
-              'grade': grade,
-            },
+            arguments: {'subject': subject, 'grade': grade},
           );
         }
       },
@@ -42,7 +39,7 @@ class SubjectDetailScreen extends StatelessWidget {
         "icon": Icons.edit_document,
         "color": Colors.green,
         "onTap": () {
-          // TODO: Mở trang giải bài tập sau
+          // TODO: mở trang giải bài tập
         }
       },
       {
@@ -50,16 +47,10 @@ class SubjectDetailScreen extends StatelessWidget {
         "icon": Icons.quiz_rounded,
         "color": Colors.orange,
         "onTap": () async {
-          // ✅ Load quiz trước khi điều hướng
           await quizController.loadQuiz(subject, grade);
-
-          // ✅ Điều hướng sang QuizDetailScreen
           Get.toNamed(
             AppRoutes.quizDetail,
-            arguments: {
-              'subject': subject,
-              'grade': grade,
-            },
+            arguments: {'subject': subject, 'grade': grade},
           );
         }
       },
@@ -68,7 +59,10 @@ class SubjectDetailScreen extends StatelessWidget {
         "icon": Icons.article_rounded,
         "color": Colors.purple,
         "onTap": () {
-          // TODO: Mở bộ đề thi sau
+          Get.toNamed(
+            AppRoutes.exam,
+            arguments: {'subject': subject, 'grade': grade},
+          );
         }
       },
     ];
@@ -79,8 +73,8 @@ class SubjectDetailScreen extends StatelessWidget {
         backgroundColor: primaryGreen,
         elevation: 2,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -98,94 +92,95 @@ class SubjectDetailScreen extends StatelessWidget {
               style: TextStyle(fontSize: 16, color: Colors.black54),
             ),
             const SizedBox(height: 24),
-
-            // Grid hiển thị các thẻ chức năng
-            Expanded(
-              child: GridView.builder(
-                itemCount: featureCards.length,
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  crossAxisSpacing: 16,
-                  mainAxisSpacing: 16,
-                  childAspectRatio: 1.05,
-                ),
-                itemBuilder: (context, index) {
-                  final card = featureCards[index];
-                  return InkWell(
-                    onTap: card["onTap"],
-                    borderRadius: BorderRadius.circular(18),
-                    splashColor: card["color"].withOpacity(0.2),
-                    highlightColor: Colors.white.withOpacity(0.1),
-                    child: Card(
-                      elevation: 6,
-                      shadowColor: card["color"].withOpacity(0.4),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                color: card["color"].withOpacity(0.15),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: card["color"].withOpacity(0.5),
-                                    blurRadius: 8,
-                                    offset: const Offset(0, 4),
+            GridView.builder(
+              physics: const NeverScrollableScrollPhysics(),
+              shrinkWrap: true,
+              itemCount: featureCards.length,
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                crossAxisSpacing: 16,
+                mainAxisSpacing: 16,
+                childAspectRatio: 1.05,
+              ),
+              itemBuilder: (context, index) {
+                final card = featureCards[index];
+                return InkWell(
+                  onTap: card["onTap"],
+                  borderRadius: BorderRadius.circular(18),
+                  splashColor: card["color"].withOpacity(0.2),
+                  highlightColor: Colors.white.withOpacity(0.1),
+                  child: Card(
+                    elevation: 6,
+                    shadowColor: card["color"].withOpacity(0.4),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(18),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(16),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: card["color"].withOpacity(0.15),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: card["color"].withOpacity(0.5),
+                                  blurRadius: 8,
+                                  offset: const Offset(0, 4),
+                                ),
+                              ],
+                            ),
+                            padding: const EdgeInsets.all(16),
+                            child: Icon(
+                              card["icon"],
+                              size: 38,
+                              color: card["color"],
+                            ),
+                          ),
+                          const SizedBox(height: 16),
+                          Text(
+                            card["title"],
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: card["color"], // sửa lại
+                            ),
+                          ),
+                          if (card["title"] == "Lý thuyết") ...[
+                            const SizedBox(height: 12),
+                            Obx(() {
+                              double progress =
+                                  controller.getProgress(subject, grade);
+                              return Column(
+                                children: [
+                                  LinearProgressIndicator(
+                                    value: progress,
+                                    minHeight: 8,
+                                    backgroundColor:
+                                        card["color"].withOpacity(0.2),
+                                    color: card["color"],
+                                  ),
+                                  const SizedBox(height: 4),
+                                  Text(
+                                    "${(progress * 100).toStringAsFixed(0)}% Hoàn thành",
+                                    style: const TextStyle(
+                                      fontSize: 12,
+                                      color: Colors.black87,
+                                    ),
                                   ),
                                 ],
-                              ),
-                              padding: const EdgeInsets.all(16),
-                              child: Icon(
-                                card["icon"],
-                                size: 38,
-                                color: card["color"],
-                              ),
-                            ),
-                            const SizedBox(height: 16),
-                            Text(
-                              card["title"],
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold,
-                                color: card["color"].shade700,
-                              ),
-                            ),
-
-                            // ✅ Thanh tiến trình chỉ cho "Lý thuyết"
-                            if (card["title"] == "Lý thuyết") ...[
-                              const SizedBox(height: 12),
-                              Obx(() {
-                                double progress = controller.getProgress(subject, grade);
-                                return Column(
-                                  children: [
-                                    LinearProgressIndicator(
-                                      value: progress,
-                                      minHeight: 8,
-                                      backgroundColor: card["color"].withOpacity(0.2),
-                                      color: card["color"],
-                                    ),
-                                    const SizedBox(height: 4),
-                                    Text(
-                                      "${(progress * 100).toStringAsFixed(0)}% Hoàn thành",
-                                      style: const TextStyle(fontSize: 12),
-                                    ),
-                                  ],
-                                );
-                              }),
-                            ],
+                              );
+                            }),
                           ],
-                        ),
+                        ],
                       ),
                     ),
-                  );
-                },
-              ),
+                  ),
+                );
+              },
             ),
           ],
         ),

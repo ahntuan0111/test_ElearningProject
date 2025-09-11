@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:diacritic/diacritic.dart';
 
 class QuizController extends GetxController {
   /// Danh sách chương & bộ đề
@@ -20,25 +21,29 @@ class QuizController extends GetxController {
 
   /// Load dữ liệu quiz từ JSON
   Future<void> loadQuiz(String subject, int grade) async {
-    try {
-      isLoading.value = true;
+  try {
+    isLoading.value = true;
 
-      final String response = await rootBundle.loadString('assets/quiz.json');
-      final data = json.decode(response) as Map<String, dynamic>;
+    // Chuẩn hoá: bỏ dấu + chữ thường
+    final normalizedSubject = removeDiacritics(subject).toLowerCase();
 
-      /// Lọc quiz theo subject + grade nếu cần
-      chapters.value = List<Map<String, dynamic>>.from(data["quiz"])
-          .where((chapter) =>
-      (chapter["grade"] == grade || chapter["grade"] == null) &&
-          (chapter["subject"] == subject || chapter["subject"] == null))
-          .toList();
+    // Tạo tên file
+    final fileName = 'quiz_${normalizedSubject}_$grade.json';
 
-      isLoading.value = false;
-    } catch (e) {
-      isLoading.value = false;
-      print("Lỗi load quiz: $e");
-    }
+    final String response = await rootBundle.loadString('assets/$fileName');
+    final data = json.decode(response) as Map<String, dynamic>;
+
+    chapters.value = List<Map<String, dynamic>>.from(data["quiz"])
+        .where((chapter) =>
+            (chapter["grade"] == grade || chapter["grade"] == null) &&
+            (chapter["subject"] == subject || chapter["subject"] == null))
+        .toList();
+  } catch (e) {
+    print("Lỗi load quiz: $e");
+  } finally {
+    isLoading.value = false;
   }
+}
 
   /// Helper tạo key duy nhất cho mỗi quiz
   String _key(String chapterName, String setTitle) => "${chapterName}_$setTitle";
@@ -78,8 +83,8 @@ class QuizController extends GetxController {
   List<Map<String, dynamic>> getQuizData(int grade, String subject) {
     return chapters
         .where((chapter) =>
-    (chapter['grade'] == grade || chapter["grade"] == null) &&
-        (chapter['subject'] == subject || chapter["subject"] == null))
+            (chapter['grade'] == grade || chapter["grade"] == null) &&
+            (chapter['subject'] == subject || chapter["subject"] == null))
         .toList();
   }
 

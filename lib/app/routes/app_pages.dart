@@ -8,6 +8,8 @@ import '../screens/subject_detail_screen.dart';
 import '../screens/theory_screen.dart';
 import '../screens/lesson_detail_screen.dart';
 import '../screens/quiz_detail_screen.dart';
+import '../screens/exam_screen.dart';
+import '../screens/exam_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {
@@ -57,7 +59,6 @@ class AppPages {
       ),
       transition: Transition.cupertino,
     ),
-
     GetPage(
       name: AppRoutes.quizDetail,
       page: () => QuizDetailScreen(
@@ -66,11 +67,18 @@ class AppPages {
       ),
       transition: Transition.rightToLeftWithFade,
     ),
-
     GetPage(
       name: AppRoutes.quiz,
       page: () => QuizScreen(),
       transition: Transition.cupertino,
     ),
-  ];
+    GetPage(
+      name: AppRoutes.exam,
+      page: () => ExamScreen(
+        subject: Get.arguments['subject'],
+        grade: Get.arguments['grade'],
+      ),
+      transition: Transition.cupertino,
+    ),
+      ];
 }

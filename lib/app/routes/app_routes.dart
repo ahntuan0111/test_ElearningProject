@@ -8,4 +8,5 @@ class AppRoutes {
   static const lessonDetail = '/lesson_detail';
   static const quizDetail = '/quiz_detail';
   static const quiz = '/quiz';
-}
+  static const String exam = '/exam'; // Thêm dòng này
+} 

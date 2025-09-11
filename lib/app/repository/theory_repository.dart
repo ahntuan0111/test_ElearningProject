@@ -22,6 +22,7 @@ class TheoryRepository {
   }
 
   String _getFileName(String subject, int grade) {
+    print("Subject nhận vào: '${subject.toLowerCase()}'");
     switch (subject.toLowerCase()) {
       case 'toán':
         return 'toan_$grade.json';

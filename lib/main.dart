@@ -7,7 +7,6 @@ import 'app/controllers/theme_controller.dart';
 import 'app/controllers/user_controller.dart';
 import 'app/routes/app_pages.dart';
 import 'app/routes/app_routes.dart';
-import 'app/screens/main_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

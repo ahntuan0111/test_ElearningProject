@@ -866,6 +866,456 @@
           ]
         }
       ]
+    },
+    {
+      "chapter": "Chương 4: Số đo đại lượng",
+      "sets": [
+        {
+          "title": "Bộ câu hỏi 15p",
+          "questions": [
+            {
+              "question": "Đơn vị đo chiều dài cơ bản trong hệ SI là gì?",
+              "options": ["mét", "centimét", "milimét", "kilômét"],
+              "answer": 0,
+              "explanation": "Mét (m) là đơn vị cơ bản đo chiều dài trong hệ SI."
+            },
+            {
+              "question": "1 mét bằng bao nhiêu centimét?",
+              "options": ["1", "10", "100", "1000"],
+              "answer": 2,
+              "explanation": "1 mét = 100 centimét."
+            },
+            {
+              "question": "Đơn vị đo khối lượng thường dùng là gì?",
+              "options": ["gram", "kilogram", "tấn", "mét"],
+              "answer": 1,
+              "explanation": "Kilogram (kg) là đơn vị thường dùng để đo khối lượng."
+            },
+            {
+              "question": "1 giờ bằng bao nhiêu phút?",
+              "options": ["10", "30", "60", "100"],
+              "answer": 2,
+              "explanation": "1 giờ = 60 phút."
+            },
+            {
+              "question": "Đơn vị đo diện tích cơ bản là?",
+              "options": ["mét vuông", "centimét vuông", "kilômét vuông", "hecta"],
+              "answer": 0,
+              "explanation": "Mét vuông (m²) là đơn vị cơ bản đo diện tích."
+            },
+            {
+              "question": "1 lít bằng bao nhiêu mililít?",
+              "options": ["10", "100", "1000", "10000"],
+              "answer": 2,
+              "explanation": "1 lít = 1000 mililít."
+            },
+            {
+              "question": "1 ngày có bao nhiêu giờ?",
+              "options": ["12", "24", "36", "48"],
+              "answer": 1,
+              "explanation": "1 ngày = 24 giờ."
+            },
+            {
+              "question": "1 kilogram bằng bao nhiêu gram?",
+              "options": ["10", "100", "1000", "10000"],
+              "answer": 2,
+              "explanation": "1 kilogram = 1000 gram."
+            },
+            {
+              "question": "Đơn vị đo thời gian nhỏ nhất sau đây là?",
+              "options": ["giờ", "giây", "phút", "ngày"],
+              "answer": 1,
+              "explanation": "Giây là đơn vị đo thời gian nhỏ nhất trong các đáp án."
+            },
+            {
+              "question": "1 mét vuông bằng bao nhiêu centimét vuông?",
+              "options": ["100", "1000", "10000", "100000"],
+              "answer": 2,
+              "explanation": "1 mét vuông = 10,000 centimét vuông."
+            }
+          ]
+        },
+        {
+          "title": "Bộ câu hỏi 30p",
+          "questions": [
+            {
+              "question": "1 km bằng bao nhiêu mét?",
+              "options": ["10", "100", "1000", "10,000"],
+              "answer": 2,
+              "explanation": "1 km = 1000 mét."
+            },
+            {
+              "question": "1 tấn bằng bao nhiêu kilogram?",
+              "options": ["10", "100", "1000", "10,000"],
+              "answer": 2,
+              "explanation": "1 tấn = 1000 kg."
+            },
+            {
+              "question": "1 phút bằng bao nhiêu giây?",
+              "options": ["10", "30", "60", "100"],
+              "answer": 2,
+              "explanation": "1 phút = 60 giây."
+            },
+            {
+              "question": "Đơn vị đo dung tích là?",
+              "options": ["lít", "mét", "gram", "giây"],
+              "answer": 0,
+              "explanation": "Lít là đơn vị đo dung tích."
+            },
+            {
+              "question": "1 ha (hecta) bằng bao nhiêu mét vuông?",
+              "options": ["100", "1000", "10,000", "100,000"],
+              "answer": 2,
+              "explanation": "1 ha = 10,000 mét vuông."
+            },
+            {
+              "question": "Đổi 2,5 kg ra gam?",
+              "options": ["250", "2500", "25,000", "250,000"],
+              "answer": 1,
+              "explanation": "2,5 kg = 2500 gam."
+            },
+            {
+              "question": "Một ngày có bao nhiêu phút?",
+              "options": ["720", "1440", "1800", "2400"],
+              "answer": 1,
+              "explanation": "1 ngày = 24 giờ = 1440 phút."
+            },
+            {
+              "question": "1 lít nước nặng bao nhiêu kilogram?",
+              "options": ["0.1", "0.5", "1", "10"],
+              "answer": 2,
+              "explanation": "1 lít nước nặng khoảng 1 kg."
+            },
+            {
+              "question": "1 phút 30 giây bằng bao nhiêu giây?",
+              "options": ["60", "90", "100", "120"],
+              "answer": 1,
+              "explanation": "1 phút 30 giây = 90 giây."
+            },
+            {
+              "question": "Đơn vị đo khối lượng lớn nhất trong các đáp án sau là?",
+              "options": ["gram", "kilogram", "tấn", "lít"],
+              "answer": 2,
+              "explanation": "Tấn là đơn vị đo khối lượng lớn nhất trong các đáp án."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Chương 5: Hình học phẳng cơ bản",
+      "sets": [
+        {
+          "title": "Bộ câu hỏi 15p",
+          "questions": [
+            {
+              "question": "Hình nào có 3 cạnh và 3 góc?",
+              "options": ["Hình vuông", "Hình chữ nhật", "Hình tam giác", "Hình tròn"],
+              "answer": 2,
+              "explanation": "Tam giác có 3 cạnh và 3 góc."
+            },
+            {
+              "question": "Hình vuông có bao nhiêu cạnh bằng nhau?",
+              "options": ["1", "2", "3", "4"],
+              "answer": 3,
+              "explanation": "Hình vuông có 4 cạnh bằng nhau."
+            },
+            {
+              "question": "Hình chữ nhật có bao nhiêu góc vuông?",
+              "options": ["1", "2", "3", "4"],
+              "answer": 3,
+              "explanation": "Hình chữ nhật có 4 góc vuông."
+            },
+            {
+              "question": "Hình tròn có bao nhiêu tâm?",
+              "options": ["0", "1", "2", "Vô số"],
+              "answer": 1,
+              "explanation": "Hình tròn chỉ có 1 tâm."
+            },
+            {
+              "question": "Chu vi hình vuông cạnh 5cm là:",
+              "options": ["10cm", "15cm", "20cm", "25cm"],
+              "answer": 2,
+              "explanation": "Chu vi = 4 x cạnh = 4 x 5 = 20cm."
+            },
+            {
+              "question": "Diện tích hình chữ nhật có chiều dài 6cm, chiều rộng 4cm là:",
+              "options": ["10cm²", "12cm²", "20cm²", "24cm²"],
+              "answer": 3,
+              "explanation": "Diện tích = chiều dài x chiều rộng = 6 x 4 = 24cm²."
+            },
+            {
+              "question": "Hình gì có tất cả các cạnh bằng nhau nhưng không phải là hình vuông?",
+              "options": ["Hình tam giác đều", "Hình chữ nhật", "Hình thang", "Hình tròn"],
+              "answer": 0,
+              "explanation": "Tam giác đều có 3 cạnh bằng nhau."
+            },
+            {
+              "question": "Đường kính hình tròn là gì?",
+              "options": [
+                "Đoạn thẳng nối hai điểm bất kỳ trên đường tròn",
+                "Đoạn thẳng đi qua tâm và nối hai điểm trên đường tròn",
+                "Độ dài từ tâm đến một điểm trên đường tròn",
+                "Chu vi của hình tròn"
+              ],
+              "answer": 1,
+              "explanation": "Đường kính là đoạn thẳng đi qua tâm nối hai điểm trên đường tròn."
+            },
+            {
+              "question": "Tổng ba góc của một tam giác là:",
+              "options": ["90°", "180°", "270°", "360°"],
+              "answer": 1,
+              "explanation": "Tổng ba góc của tam giác = 180°."
+            },
+            {
+              "question": "Hình thang là hình gì?",
+              "options": [
+                "Có hai cạnh song song",
+                "Có bốn cạnh bằng nhau",
+                "Có ba cạnh bằng nhau",
+                "Có ba góc vuông"
+              ],
+              "answer": 0,
+              "explanation": "Hình thang có 2 cạnh song song."
+            }
+          ]
+        },
+        {
+          "title": "Bộ câu hỏi 30p",
+          "questions": [
+            {
+              "question": "Chu vi hình tròn đường kính 10cm là:",
+              "options": ["10cm", "31.4cm", "15cm", "20cm"],
+              "answer": 1,
+              "explanation": "Chu vi = π x đường kính ≈ 3.14 x 10 = 31.4cm."
+            },
+            {
+              "question": "Diện tích hình vuông cạnh 7cm là:",
+              "options": ["14cm²", "21cm²", "49cm²", "28cm²"],
+              "answer": 2,
+              "explanation": "Diện tích = cạnh x cạnh = 7 x 7 = 49cm²."
+            },
+            {
+              "question": "Hình chữ nhật có chu vi bằng 18cm, chiều rộng 4cm. Tính chiều dài.",
+              "options": ["5cm", "6cm", "7cm", "8cm"],
+              "answer": 1,
+              "explanation": "Chu vi = 2 x (d + r) → 18 = 2 x (d + 4) → d = 5cm."
+            },
+            {
+              "question": "Hình tam giác đều có mỗi góc bằng bao nhiêu độ?",
+              "options": ["30°", "45°", "60°", "90°"],
+              "answer": 2,
+              "explanation": "Tam giác đều có mỗi góc 60°."
+            },
+            {
+              "question": "Hình tròn có bán kính 4cm, diện tích là:",
+              "options": ["16π cm²", "8π cm²", "12π cm²", "4π cm²"],
+              "answer": 0,
+              "explanation": "Diện tích = π x r² = π x 16 = 16π cm²."
+            },
+            {
+              "question": "Một hình thang có đáy lớn 10cm, đáy nhỏ 6cm, chiều cao 4cm. Diện tích là:",
+              "options": ["32cm²", "36cm²", "40cm²", "64cm²"],
+              "answer": 0,
+              "explanation": "Diện tích = (10 + 6) x 4 / 2 = 32cm²."
+            },
+            {
+              "question": "Hình bình hành có diện tích bằng:",
+              "options": [
+                "Đáy x chiều cao",
+                "Đáy x chiều rộng",
+                "Chu vi x chiều cao",
+                "Chu vi x đáy"
+              ],
+              "answer": 0,
+              "explanation": "Diện tích hình bình hành = đáy x chiều cao."
+            },
+            {
+              "question": "Hình vuông có diện tích 64cm², cạnh dài bao nhiêu?",
+              "options": ["6cm", "7cm", "8cm", "9cm"],
+              "answer": 2,
+              "explanation": "Cạnh = √64 = 8cm."
+            },
+            {
+              "question": "Hình chữ nhật có chiều dài 8cm, chiều rộng 3cm. Chu vi là:",
+              "options": ["11cm", "22cm", "24cm", "26cm"],
+              "answer": 1,
+              "explanation": "Chu vi = 2 x (8 + 3) = 22cm."
+            },
+            {
+              "question": "Hình tròn bán kính 5cm, chu vi là:",
+              "options": ["10π cm", "5π cm", "20π cm", "25π cm"],
+              "answer": 0,
+              "explanation": "Chu vi = 2 x π x r = 2 x π x 5 = 10π cm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Chương 6: Thống kê và xác suất",
+      "sets": [
+        {
+          "title": "Bộ câu hỏi 15p",
+          "questions": [
+            {
+              "question": "Thống kê là gì?",
+              "options": [
+                "Thu thập và phân tích số liệu",
+                "Vẽ hình",
+                "Tính toán số đo hình học",
+                "Làm toán cộng trừ"
+              ],
+              "answer": 0,
+              "explanation": "Thống kê là thu thập và phân tích số liệu."
+            },
+            {
+              "question": "Xác suất là gì?",
+              "options": [
+                "Độ đo khả năng xảy ra của một sự kiện",
+                "Tổng số biến cố",
+                "Phép cộng các số",
+                "Vẽ đồ thị"
+              ],
+              "answer": 0,
+              "explanation": "Xác suất là độ đo khả năng xảy ra của một sự kiện."
+            },
+            {
+              "question": "Biểu đồ cột dùng để:",
+              "options": [
+                "So sánh số liệu",
+                "Vẽ hình vuông",
+                "Tính diện tích",
+                "Tính xác suất"
+              ],
+              "answer": 0,
+              "explanation": "Biểu đồ cột dùng để so sánh số liệu."
+            },
+            {
+              "question": "Trung bình cộng của các số 2, 4, 6 là:",
+              "options": ["3", "4", "5", "6"],
+              "answer": 1,
+              "explanation": "(2 + 4 + 6) / 3 = 4."
+            },
+            {
+              "question": "Nếu tung một đồng xu, xác suất ra mặt sấp là:",
+              "options": ["0", "0.25", "0.5", "1"],
+              "answer": 2,
+              "explanation": "Có 2 mặt, xác suất ra mặt sấp là 0.5."
+            },
+            {
+              "question": "Chọn ngẫu nhiên một số từ 1 đến 10, xác suất chọn được số 5 là:",
+              "options": ["0.1", "0.2", "0.5", "1"],
+              "answer": 0,
+              "explanation": "Có 10 số, xác suất chọn được số 5 là 1/10 = 0.1."
+            },
+            {
+              "question": "Số lớn nhất trong dãy 3, 6, 9, 12 là:",
+              "options": ["3", "6", "9", "12"],
+              "answer": 3,
+              "explanation": "12 là số lớn nhất."
+            },
+            {
+              "question": "Tìm số trung vị của dãy số 2, 5, 7:",
+              "options": ["2", "5", "7", "Không xác định"],
+              "answer": 1,
+              "explanation": "Trung vị là số ở giữa khi sắp xếp, ở đây là 5."
+            },
+            {
+              "question": "Nếu có 4 quả bóng đỏ, 6 quả bóng xanh, xác suất chọn được bóng đỏ là:",
+              "options": ["0.2", "0.3", "0.4", "0.5"],
+              "answer": 2,
+              "explanation": "Xác suất = số bóng đỏ / tổng số bóng = 4/10 = 0.4."
+            },
+            {
+              "question": "Biểu đồ hình tròn dùng để:",
+              "options": [
+                "Biểu diễn tỷ lệ phần trăm",
+                "Vẽ hình tròn",
+                "Tính xác suất",
+                "So sánh số liệu"
+              ],
+              "answer": 0,
+              "explanation": "Biểu đồ hình tròn thường dùng để biểu diễn tỷ lệ phần trăm."
+            }
+          ]
+        },
+        {
+          "title": "Bộ câu hỏi 30p",
+          "questions": [
+            {
+              "question": "Nếu tung một xúc xắc, xác suất ra số 3 là:",
+              "options": ["1/2", "1/3", "1/6", "1"],
+              "answer": 2,
+              "explanation": "Xúc xắc có 6 mặt, xác suất ra số 3 là 1/6."
+            },
+            {
+              "question": "Trung bình cộng của các số 5, 10, 15, 20 là:",
+              "options": ["10", "12.5", "15", "20"],
+              "answer": 1,
+              "explanation": "(5+10+15+20)/4 = 12.5."
+            },
+            {
+              "question": "Nếu có 8 quả bóng vàng, 2 quả bóng đỏ, xác suất chọn bóng đỏ là:",
+              "options": ["0.2", "0.25", "0.5", "0.8"],
+              "answer": 0,
+              "explanation": "2/10 = 0.2."
+            },
+            {
+              "question": "Số trung vị của dãy 1, 3, 6, 8, 10 là:",
+              "options": ["3", "6", "8", "10"],
+              "answer": 1,
+              "explanation": "Sắp xếp tăng dần, số giữa là 6."
+            },
+            {
+              "question": "Nếu có 5 kẹo đỏ, 5 kẹo xanh, xác suất chọn kẹo đỏ là:",
+              "options": ["0.1", "0.25", "0.5", "1"],
+              "answer": 2,
+              "explanation": "5/10 = 0.5."
+            },
+            {
+              "question": "Biểu đồ đường dùng để:",
+              "options": [
+                "Biểu diễn sự thay đổi theo thời gian",
+                "Biểu diễn tỷ lệ phần trăm",
+                "So sánh số liệu",
+                "Vẽ hình vuông"
+              ],
+              "answer": 0,
+              "explanation": "Biểu đồ đường dùng để biểu diễn sự thay đổi theo thời gian."
+            },
+            {
+              "question": "Nếu có 12 học sinh, trong đó 7 nam, xác suất chọn ngẫu nhiên 1 bạn nam là:",
+              "options": ["0.5", "0.58", "0.7", "0.8"],
+              "answer": 2,
+              "explanation": "7/12 ≈ 0.58, nhưng gần nhất là 0.7."
+            },
+            {
+              "question": "Số lớn nhất trong dãy 4, 6, 8, 10, 12 là:",
+              "options": ["4", "8", "10", "12"],
+              "answer": 3,
+              "explanation": "12 là số lớn nhất."
+            },
+            {
+              "question": "Nếu có 3 quả bóng đỏ, 7 quả bóng xanh, xác suất chọn bóng xanh là:",
+              "options": ["0.3", "0.5", "0.7", "0.9"],
+              "answer": 2,
+              "explanation": "7/10 = 0.7."
+            },
+            {
+              "question": "Biểu đồ cột thường dùng cho:",
+              "options": [
+                "So sánh số liệu các nhóm",
+                "Biểu diễn tỷ lệ phần trăm",
+                "Vẽ hình tròn",
+                "Biểu diễn sự thay đổi theo thời gian"
+              ],
+              "answer": 0,
+              "explanation": "Biểu đồ cột dùng để so sánh số liệu các nhóm."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

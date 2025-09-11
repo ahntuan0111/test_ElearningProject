@@ -2,12 +2,11 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_10/app/screens/inline_latex_text.dart';
-import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:get/get.dart';
 import '../controllers/quiz_controller.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({Key? key}) : super(key: key);
+  const QuizScreen({super.key});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();

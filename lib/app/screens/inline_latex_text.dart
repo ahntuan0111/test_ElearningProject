@@ -12,13 +12,13 @@ class InlineLatexText extends StatelessWidget {
   final FontWeight fontWeight;
 
   const InlineLatexText({
-    Key? key,
+    super.key,
     required this.text,
     this.fontSize = 16,
     this.color,
     this.textAlign = TextAlign.start,
     this.fontWeight = FontWeight.normal,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
