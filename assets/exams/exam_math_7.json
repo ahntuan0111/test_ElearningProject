@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Đề thi Toán 7 - Học kỳ 1",
+      "description": "Ôn tập và kiểm tra học kỳ 1 môn Toán 7.",
+      "pdfPath": "assets/exams/pdfs/math_7_hk1.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-01-05"
+    },
+    {
+      "title": "Đề thi Toán 7 - Học kỳ 2",
+      "description": "Tổng hợp kiến thức học kỳ 2 môn Toán 7.",
+      "pdfPath": "assets/exams/pdfs/math_7_hk2.pdf",
+      "difficulty": "Khó",
+      "date": "2025-05-20"
+    }
+  ]
+  

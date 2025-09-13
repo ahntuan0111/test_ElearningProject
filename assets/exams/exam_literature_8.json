@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Đề thi Ngữ Văn 8 - Học kỳ 1",
+      "description": "Đọc hiểu văn bản trung đại và viết nghị luận.",
+      "pdfPath": "assets/exams/pdfs/nguvan_8_hk1.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-01-11"
+    },
+    {
+      "title": "Đề thi Ngữ Văn 8 - Học kỳ 2",
+      "description": "Văn bản hiện đại và tập làm văn nghị luận.",
+      "pdfPath": "assets/exams/pdfs/nguvan_8_hk2.pdf",
+      "difficulty": "Khó",
+      "date": "2025-05-19"
+    }
+  ]
+  

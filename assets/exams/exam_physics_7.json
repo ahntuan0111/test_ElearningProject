@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Đề thi Vật Lý 7 - Học kỳ 1",
+      "description": "Kiểm tra kiến thức cơ bản về quang học và âm học.",
+      "pdfPath": "assets/exams/pdfs/physics_7_hk1.pdf",
+      "difficulty": "Dễ",
+      "date": "2025-01-12"
+    },
+    {
+      "title": "Đề thi Vật Lý 7 - Học kỳ 2",
+      "description": "Tổng hợp kiến thức học kỳ 2 môn Vật Lý 7.",
+      "pdfPath": "assets/exams/pdfs/physics_7_hk2.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-05-25"
+    }
+  ]
+  

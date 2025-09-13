@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Đề thi Ngữ Văn 9 - Học kỳ 1",
+      "description": "Đọc hiểu văn bản trung đại và tập làm văn nghị luận.",
+      "pdfPath": "assets/exams/pdfs/nguvan_9_hk1.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-01-12"
+    },
+    {
+      "title": "Đề thi Ngữ Văn 9 - Học kỳ 2",
+      "description": "Văn bản hiện đại và nghị luận xã hội.",
+      "pdfPath": "assets/exams/pdfs/nguvan_9_hk2.pdf",
+      "difficulty": "Khó",
+      "date": "2025-05-22"
+    }
+  ]
+  

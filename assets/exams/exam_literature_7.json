@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Đề thi Ngữ Văn 7 - Học kỳ 1",
+      "description": "Đọc hiểu và làm văn nghị luận xã hội.",
+      "pdfPath": "assets/exams/pdfs/nguvan_7.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-01-08"
+    },
+    {
+      "title": "Đề thi Ngữ Văn 7 - Học kỳ 2",
+      "description": "Văn bản nghị luận và văn biểu cảm.",
+      "pdfPath": "assets/exams/pdfs/nguvan_7.pdf",
+      "difficulty": "Khó",
+      "date": "2025-05-18"
+    }
+  ]
+  

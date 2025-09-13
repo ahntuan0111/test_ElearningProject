@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Đề thi Toán học kỳ I",
+    "description": "Đề thi môn Toán học kỳ I lớp 10",
+    "pdfPath": "assets/exams/pdfs/math_6_hk1.pdf",
+    "difficulty": "Khó",
+    "date": "2023-12-15T00:00:00.000Z"
+  },
+  {
+    "title": "Đề thi Vật lý học kỳ II",
+    "description": "Đề thi môn Vật lý học kỳ II lớp 10",
+    "pdfPath": "assets/exams/pdfs/math_6_hk2.pdf",
+    "difficulty": "Trung bình",
+    "date": "2023-05-20T00:00:00.000Z"
+  }
+]

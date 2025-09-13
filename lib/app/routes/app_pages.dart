@@ -9,7 +9,6 @@ import '../screens/theory_screen.dart';
 import '../screens/lesson_detail_screen.dart';
 import '../screens/quiz_detail_screen.dart';
 import '../screens/exam_screen.dart';
-import '../screens/exam_screen.dart';
 import 'app_routes.dart';
 
 class AppPages {

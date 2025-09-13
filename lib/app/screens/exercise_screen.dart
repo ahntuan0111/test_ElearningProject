@@ -6,8 +6,7 @@ class ExerciseScreen extends StatelessWidget {
   final String subject;
   final int grade;
 
-  ExerciseScreen({required this.subject, required this.grade, Key? key})
-      : super(key: key);
+  ExerciseScreen({required this.subject, required this.grade, super.key});
 
   final ExerciseController controller = Get.put(ExerciseController());
 

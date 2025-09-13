@@ -1,0 +1,24 @@
+[
+    {
+      "title": "English Test 6 - Semester 1",
+      "description": "Vocabulary and grammar exercises.",
+      "pdfPath": "assets/exams/pdfs/english_6_hk1.pdf",
+      "difficulty": "Dễ",
+      "date": "2025-01-10"
+    },
+    {
+      "title": "English Test 6 - Semester 2",
+      "description": "Reading comprehension and writing.",
+      "pdfPath": "assets/exams/pdfs/english_6_hk2.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-02-12"
+    },
+    {
+      "title": "English Midterm Test 6",
+      "description": "General test for first semester.",
+      "pdfPath": "assets/exams/pdfs/english_6_midterm.pdf",
+      "difficulty": "Khó",
+      "date": "2025-03-05"
+    }
+  ]
+  

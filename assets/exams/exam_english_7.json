@@ -1,0 +1,17 @@
+[
+    {
+      "title": "English Test 7 - Semester 1",
+      "description": "Grammar, vocabulary, and reading comprehension.",
+      "pdfPath": "assets/exams/pdfs/english_7_hk1.pdf",
+      "difficulty": "Dễ",
+      "date": "2025-01-10"
+    },
+    {
+      "title": "English Test 7 - Semester 2",
+      "description": "Listening, speaking, and writing tasks.",
+      "pdfPath": "assets/exams/pdfs/english_7_hk2.pdf",
+      "difficulty": "Khó",
+      "date": "2025-05-22"
+    }
+  ]
+  

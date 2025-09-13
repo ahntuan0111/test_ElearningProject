@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Đề thi Vật Lý 8 - Học kỳ 1",
+      "description": "Ôn tập cơ học và nhiệt học học kỳ 1.",
+      "pdfPath": "assets/exams/pdfs/physics_8_hk1.pdf",
+      "difficulty": "Dễ",
+      "date": "2025-01-15"
+    },
+    {
+      "title": "Đề thi Vật Lý 8 - Học kỳ 2",
+      "description": "Kiểm tra kiến thức điện học và quang học học kỳ 2.",
+      "pdfPath": "assets/exams/pdfs/physics_8_hk2.pdf",
+      "difficulty": "Trung bình",
+      "date": "2025-05-27"
+    }
+  ]
+  
