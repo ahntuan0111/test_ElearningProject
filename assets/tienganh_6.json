@@ -1,122 +1,174 @@
 {
-  "chapters": [
+  "subjects": [
     {
-      "title": "Unit 1: My New School",
-      "lessons": [
+      "code": "tienganh",
+      "name": "Tiếng Anh",
+      "grade": 6,
+      "chapters": [
         {
-          "title": "Bài 1: Getting Started - A special day",
-          "content": "Giới thiệu về trường học mới và những trải nghiệm đầu tiên.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          "title": "Unit 1: My New School",
+          "orderNo": 1,
+          "lessons": [
+            {
+              "title": "Bài 1: Getting Started - A special day",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Giới thiệu về trường học mới và những trải nghiệm đầu tiên." }
+              ]
+            },
+            {
+              "title": "Bài 2: A Closer Look 1 - Vocabulary & Pronunciation",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Học từ vựng và cách phát âm về chủ đề trường học." }
+              ]
+            },
+            {
+              "title": "Bài 3: A Closer Look 2 - Grammar",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Ôn tập thì hiện tại đơn và thì hiện tại tiếp diễn trong ngữ cảnh trường học." }
+              ]
+            },
+            {
+              "title": "Bài 4: Communication",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Luyện tập kỹ năng giao tiếp về chủ đề trường học mới." }
+              ]
+            },
+            {
+              "title": "Bài 5: Skills 1 - Reading & Speaking",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Rèn luyện kỹ năng đọc hiểu và thảo luận về trường học mới." }
+              ]
+            },
+            {
+              "title": "Bài 6: Skills 2 - Listening & Writing",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Luyện kỹ năng nghe và viết về trải nghiệm ngày đầu đến trường." }
+              ]
+            },
+            {
+              "title": "Bài 7: Looking Back & Project",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Ôn tập từ vựng, ngữ pháp và hoàn thành dự án nhóm." }
+              ]
+            }
+          ]
         },
         {
-          "title": "Bài 2: A Closer Look 1 - Vocabulary & Pronunciation",
-          "content": "Học từ vựng và cách phát âm về chủ đề trường học.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          "title": "Unit 2: My Home",
+          "orderNo": 2,
+          "lessons": [
+            {
+              "title": "Bài 1: Getting Started - My new house",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Giới thiệu về ngôi nhà mới và các đồ dùng trong gia đình." }
+              ]
+            },
+            {
+              "title": "Bài 2: A Closer Look 1 - Vocabulary & Pronunciation",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Học từ vựng và cách phát âm về các phòng và đồ nội thất trong nhà." }
+              ]
+            },
+            {
+              "title": "Bài 3: A Closer Look 2 - Grammar",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Luyện cấu trúc There is/There are và giới từ chỉ vị trí." }
+              ]
+            },
+            {
+              "title": "Bài 4: Communication",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Luyện hội thoại về việc miêu tả nhà cửa và các phòng trong nhà." }
+              ]
+            },
+            {
+              "title": "Bài 5: Skills 1 - Reading & Speaking",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Rèn kỹ năng đọc hiểu và thuyết trình về ngôi nhà yêu thích của mình." }
+              ]
+            },
+            {
+              "title": "Bài 6: Skills 2 - Listening & Writing",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Luyện nghe hội thoại và viết đoạn văn mô tả căn phòng yêu thích." }
+              ]
+            },
+            {
+              "title": "Bài 7: Looking Back & Project",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Ôn tập từ vựng, ngữ pháp và làm dự án về thiết kế một căn phòng mơ ước." }
+              ]
+            }
+          ]
         },
         {
-          "title": "Bài 3: A Closer Look 2 - Grammar",
-          "content": "Ôn tập thì hiện tại đơn và thì hiện tại tiếp diễn trong ngữ cảnh trường học.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 4: Communication",
-          "content": "Luyện tập kỹ năng giao tiếp về chủ đề trường học mới.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 5: Skills 1 - Reading & Speaking",
-          "content": "Rèn luyện kỹ năng đọc hiểu và thảo luận về trường học mới.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 6: Skills 2 - Listening & Writing",
-          "content": "Luyện kỹ năng nghe và viết về trải nghiệm ngày đầu đến trường.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 7: Looking Back & Project",
-          "content": "Ôn tập từ vựng, ngữ pháp và hoàn thành dự án nhóm.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Unit 2: My Home",
-      "lessons": [
-        {
-          "title": "Bài 1: Getting Started - My new house",
-          "content": "Giới thiệu về ngôi nhà mới và các đồ dùng trong gia đình.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 2: A Closer Look 1 - Vocabulary & Pronunciation",
-          "content": "Học từ vựng và cách phát âm về các phòng và đồ nội thất trong nhà.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 3: A Closer Look 2 - Grammar",
-          "content": "Luyện cấu trúc There is/There are và giới từ chỉ vị trí.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 4: Communication",
-          "content": "Luyện hội thoại về việc miêu tả nhà cửa và các phòng trong nhà.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 5: Skills 1 - Reading & Speaking",
-          "content": "Rèn kỹ năng đọc hiểu và thuyết trình về ngôi nhà yêu thích của mình.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 6: Skills 2 - Listening & Writing",
-          "content": "Luyện nghe hội thoại và viết đoạn văn mô tả căn phòng yêu thích.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 7: Looking Back & Project",
-          "content": "Ôn tập từ vựng, ngữ pháp và làm dự án về thiết kế một căn phòng mơ ước.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Unit 3: My Friends",
-      "lessons": [
-        {
-          "title": "Bài 1: Getting Started - My best friend",
-          "content": "Giới thiệu và miêu tả người bạn thân nhất của bạn.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 2: A Closer Look 1 - Vocabulary & Pronunciation",
-          "content": "Học từ vựng và phát âm về tính cách, sở thích của bạn bè.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 3: A Closer Look 2 - Grammar",
-          "content": "Luyện thì hiện tại đơn và hiện tại tiếp diễn để nói về thói quen của bạn bè.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 4: Communication",
-          "content": "Thực hành hội thoại giới thiệu bạn bè và sở thích của họ.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 5: Skills 1 - Reading & Speaking",
-          "content": "Đọc hiểu đoạn văn về tình bạn và luyện nói về bạn thân của mình.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 6: Skills 2 - Listening & Writing",
-          "content": "Nghe đoạn hội thoại về bạn bè và viết đoạn văn giới thiệu bạn thân.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
-        },
-        {
-          "title": "Bài 7: Looking Back & Project",
-          "content": "Ôn tập từ vựng, ngữ pháp và thực hiện dự án về tình bạn.",
-          "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+          "title": "Unit 3: My Friends",
+          "orderNo": 3,
+          "lessons": [
+            {
+              "title": "Bài 1: Getting Started - My best friend",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Giới thiệu và miêu tả người bạn thân nhất của bạn." }
+              ]
+            },
+            {
+              "title": "Bài 2: A Closer Look 1 - Vocabulary & Pronunciation",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Học từ vựng và phát âm về tính cách, sở thích của bạn bè." }
+              ]
+            },
+            {
+              "title": "Bài 3: A Closer Look 2 - Grammar",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Luyện thì hiện tại đơn và hiện tại tiếp diễn để nói về thói quen của bạn bè." }
+              ]
+            },
+            {
+              "title": "Bài 4: Communication",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Thực hành hội thoại giới thiệu bạn bè và sở thích của họ." }
+              ]
+            },
+            {
+              "title": "Bài 5: Skills 1 - Reading & Speaking",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Đọc hiểu đoạn văn về tình bạn và luyện nói về bạn thân của mình." }
+              ]
+            },
+            {
+              "title": "Bài 6: Skills 2 - Listening & Writing",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Nghe đoạn hội thoại về bạn bè và viết đoạn văn giới thiệu bạn thân." }
+              ]
+            },
+            {
+              "title": "Bài 7: Looking Back & Project",
+              "videoUrl": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+              "contents": [
+                { "type": "text", "value": "Ôn tập từ vựng, ngữ pháp và thực hiện dự án về tình bạn." }
+              ]
+            }
+          ]
         }
       ]
     }

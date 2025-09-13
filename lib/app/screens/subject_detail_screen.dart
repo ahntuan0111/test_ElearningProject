@@ -13,9 +13,10 @@ class SubjectDetailScreen extends StatelessWidget {
 
   SubjectDetailScreen({
     super.key,
-    required this.grade,
-    required this.subject,
-  });
+    int? grade,
+    String? subject,
+  })  : grade = grade ?? (Get.arguments?['grade'] ?? 6),
+        subject = subject ?? (Get.arguments?['subject'] ?? 'Toán');
 
   @override
   Widget build(BuildContext context) {
@@ -158,27 +159,27 @@ class SubjectDetailScreen extends StatelessWidget {
                             ),
 
                             // ✅ Thanh tiến trình chỉ cho "Lý thuyết"
-                            if (card["title"] == "Lý thuyết") ...[
-                              const SizedBox(height: 12),
-                              Obx(() {
-                                double progress = controller.getProgress(subject, grade);
-                                return Column(
-                                  children: [
-                                    LinearProgressIndicator(
-                                      value: progress,
-                                      minHeight: 8,
-                                      backgroundColor: card["color"].withOpacity(0.2),
-                                      color: card["color"],
-                                    ),
-                                    const SizedBox(height: 4),
-                                    Text(
-                                      "${(progress * 100).toStringAsFixed(0)}% Hoàn thành",
-                                      style: const TextStyle(fontSize: 12),
-                                    ),
-                                  ],
-                                );
-                              }),
-                            ],
+                            // if (card["title"] == "Lý thuyết") ...[
+                            //   const SizedBox(height: 12),
+                            //   Obx(() {
+                            //     double progress = controller.getProgress(subject, grade);
+                            //     return Column(
+                            //       children: [
+                            //         LinearProgressIndicator(
+                            //           value: progress,
+                            //           minHeight: 8,
+                            //           backgroundColor: card["color"].withOpacity(0.2),
+                            //           color: card["color"],
+                            //         ),
+                            //         const SizedBox(height: 4),
+                            //         Text(
+                            //           "${(progress * 100).toStringAsFixed(0)}% Hoàn thành",
+                            //           style: const TextStyle(fontSize: 12),
+                            //         ),
+                            //       ],
+                            //     );
+                            //   }),
+                            // ],
                           ],
                         ),
                       ),

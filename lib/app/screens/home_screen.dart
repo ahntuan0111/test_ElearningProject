@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/user_controller.dart';
+import '../routes/app_routes.dart';
 import 'subject_detail_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -9,12 +10,12 @@ class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
   final List<int> grades = [6, 7, 8, 9];
-  final List<String> subjects = ['Toán', 'Lý', 'Văn', 'Anh'];
+  final List<String> subjects = ['Toán', 'Khoa học Tự nhiên', 'Ngữ Văn', 'Tiếng Anh'];
   final Map<String, IconData> subjectIcons = {
     'Toán': Icons.calculate,
-    'Lý': Icons.science,
-    'Văn': Icons.menu_book,
-    'Anh': Icons.language,
+    'Khoa học Tự nhiên': Icons.science,
+    'Ngữ Văn': Icons.menu_book,
+    'Tiếng Anh': Icons.language,
   };
   final List<Color> gradeColors = [
     Colors.blue,
@@ -108,7 +109,7 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   value,
                   style: TextStyle(
-                    fontSize: 24,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: color,
                   ),
@@ -159,6 +160,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   /// Subject Card với hiệu ứng click và icon to hơn
+  /// Subject Card với hiệu ứng click và icon to hơn
   Widget _buildSubjectCard(String subject, int grade, Color gradeColor, int index) {
     return TweenAnimationBuilder(
       tween: Tween<double>(begin: 0, end: 1),
@@ -169,11 +171,18 @@ class HomeScreen extends StatelessWidget {
           scale: scale,
           child: InkWell(
             onTap: () {
-              Get.to(() => SubjectDetailScreen(grade: grade, subject: subject));
+              Get.toNamed(
+                AppRoutes.subjectDetail,
+                arguments: {
+                  'subject': subjects[index], // đảm bảo không null
+                  'grade': grade,
+                },
+              );
             },
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 300),
               curve: Curves.easeInOut,
+              padding: const EdgeInsets.symmetric(horizontal: 8),
               decoration: BoxDecoration(
                 color: gradeColor.withOpacity(0.1),
                 borderRadius: BorderRadius.circular(16),
@@ -190,13 +199,18 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(subjectIcons[subject], color: gradeColor, size: 32),
-                  const SizedBox(width: 10),
-                  Text(
-                    subject,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: gradeColor,
-                      fontSize: 20,
+                  const SizedBox(width: 8),
+                  Flexible(
+                    child: Text(
+                      subject,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: gradeColor,
+                        fontSize: 15, // giảm nhẹ size để vừa card
+                      ),
                     ),
                   ),
                 ],

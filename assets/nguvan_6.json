@@ -1,0 +1,331 @@
+{
+  "subjects": [
+    {
+      "code": "nguvan",
+      "name": "Ngữ Văn",
+      "grade": 6,
+      "chapters": [
+        {
+          "title": "Chương 1: Tôi và các bạn",
+          "orderNo": 1,
+          "lessons": [
+            {
+              "title": "Bài học 1: Bài học đường đời đầu tiên",
+              "videoUrl": "https://example.com/videos/nguvan6_bai1_baihocduongdoi.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện đồng thoại của Tô Hoài, kể về bài học đầu tiên của Dế Mèn, nhấn mạnh tính kiêu ngạo và hậu quả." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Nếu cậu muốn có một người bạn",
+              "videoUrl": "https://example.com/videos/nguvan6_bai2_nguoiban.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện của T. Lêvis, nhấn mạnh giá trị của tình bạn và sự sẻ chia." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Bắt nạt",
+              "videoUrl": "https://example.com/videos/nguvan6_bai3_batnat.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản nghị luận về hiện tượng bắt nạt học đường và cách ứng xử." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn kể lại một trải nghiệm của em",
+              "videoUrl": "https://example.com/videos/nguvan6_bai4_viettrainghiem.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn kể lại một trải nghiệm cá nhân, tập trung vào yếu tố tự sự." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 2: Gõ cửa trái tim",
+          "orderNo": 2,
+          "lessons": [
+            {
+              "title": "Bài học 1: Chuyện cổ tích về loài người",
+              "videoUrl": "https://example.com/videos/nguvan6_bai5_chuyencotich.mp4",
+              "contents": [
+                { "type": "text", "value": "Thơ của Cô-lét, kể về sự ra đời của loài người, nhấn mạnh tình yêu thương." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Mây và sóng",
+              "videoUrl": "https://example.com/videos/nguvan6_bai6_mayvasong.mp4",
+              "contents": [
+                { "type": "text", "value": "Thơ của Ta-go, thể hiện tình mẫu tử thiêng liêng qua hình ảnh mây và sóng." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Bức tranh của em gái tôi",
+              "videoUrl": "https://example.com/videos/nguvan6_bai7_buctranh.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện của Tạ Duy Anh, kể về tình cảm anh em và sự thấu hiểu trong gia đình." }
+              ]
+            },
+            {
+              "title": "Viết: Đoạn văn ghi lại cảm xúc về một bài thơ có yếu tố tự sự và miêu tả",
+              "videoUrl": "https://example.com/videos/nguvan6_bai8_vietdoanvan.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết đoạn văn thể hiện cảm xúc về một bài thơ tự sự hoặc miêu tả." }
+              ]
+            },
+            {
+              "title": "Nói và nghe: Trình bày ý kiến về một vấn đề trong đời sống gia đình",
+              "videoUrl": "https://example.com/videos/nguvan6_bai9_noivanghe.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn trình bày ý kiến về các vấn đề gia đình, rèn kỹ năng nói và nghe." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 3: Yêu thương và chia sẻ",
+          "orderNo": 3,
+          "lessons": [
+            {
+              "title": "Bài học 1: Cô bé bán diêm",
+              "videoUrl": "https://example.com/videos/nguvan6_bai10_cobebandiem.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện của An-đéc-xen, kể về số phận cô bé nghèo và lòng trắc ẩn." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Gió lạnh đầu mùa",
+              "videoUrl": "https://example.com/videos/nguvan6_bai11_giolanh.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện của Thạch Lam, nhấn mạnh lòng nhân ái và sự sẻ chia." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Con chào mào",
+              "videoUrl": "https://example.com/videos/nguvan6_bai12_conchaomao.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện của Nguyễn Quang Thiều, kể về tình yêu thiên nhiên và sự gắn bó." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn kể lại một trải nghiệm của em",
+              "videoUrl": "https://example.com/videos/nguvan6_bai13_viettrainghiem.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn kể lại trải nghiệm, nhấn mạnh yếu tố cảm xúc." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 4: Quê hương yêu dấu",
+          "orderNo": 4,
+          "lessons": [
+            {
+              "title": "Bài học 1: Chùm ca dao về quê hương đất nước",
+              "videoUrl": "https://example.com/videos/nguvan6_bai14_cadao.mp4",
+              "contents": [
+                { "type": "text", "value": "Chùm ca dao thể hiện tình yêu quê hương, đất nước qua hình ảnh gần gũi." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Cây tre Việt Nam",
+              "videoUrl": "https://example.com/videos/nguvan6_bai15_caytre.mp4",
+              "contents": [
+                { "type": "text", "value": "Tùy bút của Thép Mới, biểu tượng cây tre gắn bó với văn hóa Việt." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Chuyện cổ nước mình",
+              "videoUrl": "https://example.com/videos/nguvan6_bai16_chuyenco.mp4",
+              "contents": [
+                { "type": "text", "value": "Thơ của Lương Thế Vinh, ca ngợi giá trị văn hóa cổ tích Việt Nam." }
+              ]
+            },
+            {
+              "title": "Viết: Đoạn văn thể hiện cảm xúc về một bài thơ lục bát",
+              "videoUrl": "https://example.com/videos/nguvan6_bai17_vietlucbat.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết đoạn văn thể hiện cảm xúc về thơ lục bát." }
+              ]
+            },
+            {
+              "title": "Nói và nghe: Trình bày suy nghĩ về tình cảm của con người với quê hương",
+              "videoUrl": "https://example.com/videos/nguvan6_bai18_noiquehuong.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn trình bày suy nghĩ về tình yêu quê hương, rèn kỹ năng nói nghe." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 5: Những nẻo đường xứ sở",
+          "orderNo": 5,
+          "lessons": [
+            {
+              "title": "Bài học 1: Cô Tô",
+              "videoUrl": "https://example.com/videos/nguvan6_bai19_coto.mp4",
+              "contents": [
+                { "type": "text", "value": "Tùy bút của Nguyễn Tuân, miêu tả vẻ đẹp thiên nhiên và con người Cô Tô." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Hang Én",
+              "videoUrl": "https://example.com/videos/nguvan6_bai20_hangen.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản của Trần Hoàng, miêu tả vẻ đẹp hùng vĩ của hang Én." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Cửu Long Giang ta ơi",
+              "videoUrl": "https://example.com/videos/nguvan6_bai21_cuuonggiang.mp4",
+              "contents": [
+                { "type": "text", "value": "Thơ của Nguyễn Đình Thi, ca ngợi vẻ đẹp sông Cửu Long." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn tả cảnh sinh hoạt",
+              "videoUrl": "https://example.com/videos/nguvan6_bai22_viettanh.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn tả cảnh sinh hoạt, tập trung yếu tố miêu tả." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 6: Chuyện kể về những người anh hùng",
+          "orderNo": 6,
+          "lessons": [
+            {
+              "title": "Bài học 1: Thánh Gióng",
+              "videoUrl": "https://example.com/videos/nguvan6_bai23_thanhgiong.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện cổ tích về Thánh Gióng, biểu tượng sức mạnh và lòng yêu nước." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Sơn Tinh, Thủy Tinh",
+              "videoUrl": "https://example.com/videos/nguvan6_bai24_sontinh.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện cổ tích về Sơn Tinh, Thủy Tinh, phản ánh khát vọng chế ngự thiên nhiên." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Ai ơi mồng chín tháng tư",
+              "videoUrl": "https://example.com/videos/nguvan6_bai25_mongchinthangtu.mp4",
+              "contents": [
+                { "type": "text", "value": "Ca dao về lễ hội đền Hùng, thể hiện lòng biết ơn tổ tiên." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn thuyết minh thuật lại một sự kiện",
+              "videoUrl": "https://example.com/videos/nguvan6_bai26_vietthuyetminh.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn thuyết minh về một sự kiện lịch sử hoặc văn hóa." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 7: Thế giới cổ tích",
+          "orderNo": 7,
+          "lessons": [
+            {
+              "title": "Bài học 1: Thạch Sanh",
+              "videoUrl": "https://example.com/videos/nguvan6_bai27_thachsanh.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện cổ tích về Thạch Sanh, ca ngợi lòng dũng cảm và nhân ái." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Cây khế",
+              "videoUrl": "https://example.com/videos/nguvan6_bai28_caykhe.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện cổ tích về lòng tham và bài học về sự công bằng." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Vua chích chòe",
+              "videoUrl": "https://example.com/videos/nguvan6_bai29_vuachichchoe.mp4",
+              "contents": [
+                { "type": "text", "value": "Truyện cổ tích về bài học khiêm tốn và đoàn kết." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn đóng vai nhân vật kể lại một truyện cổ tích",
+              "videoUrl": "https://example.com/videos/nguvan6_bai30_vietdongvai.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn đóng vai nhân vật trong truyện cổ tích." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 8: Khác biệt và gần gũi",
+          "orderNo": 8,
+          "lessons": [
+            {
+              "title": "Bài học 1: Xem người ta kìa!",
+              "videoUrl": "https://example.com/videos/nguvan6_bai31_xemnguoitakia.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản của Đặng Thùy Trâm, nhấn mạnh sự tôn trọng sự khác biệt." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Hai loại khác biệt",
+              "videoUrl": "https://example.com/videos/nguvan6_bai32_haikhoacbiet.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản nghị luận về sự khác biệt tích cực và tiêu cực trong xã hội." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Tiếng cười không muốn nghe",
+              "videoUrl": "https://example.com/videos/nguvan6_bai33_tiengcuoi.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản nghị luận về sự đồng cảm và tránh phân biệt đối xử." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn trình bày ý kiến về một hiện tượng (vấn đề) mà em quan tâm",
+              "videoUrl": "https://example.com/videos/nguvan6_bai34_vietnghiluan.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn nghị luận về một hiện tượng xã hội." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chương 9: Trái Đất - ngôi nhà chung",
+          "orderNo": 9,
+          "lessons": [
+            {
+              "title": "Bài học 1: Trái Đất - cái nôi của sự sống",
+              "videoUrl": "https://example.com/videos/nguvan6_bai35_traidat.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản thuyết minh về vai trò của Trái Đất với sự sống." }
+              ]
+            },
+            {
+              "title": "Bài học 2: Các loài chung sống với nhau như thế nào?",
+              "videoUrl": "https://example.com/videos/nguvan6_bai36_chungsong.mp4",
+              "contents": [
+                { "type": "text", "value": "Văn bản nghị luận về sự chung sống hài hòa giữa các loài." }
+              ]
+            },
+            {
+              "title": "Bài học 3: Trái Đất",
+              "videoUrl": "https://example.com/videos/nguvan6_bai37_traidattho.mp4",
+              "contents": [
+                { "type": "text", "value": "Thơ của Trần Đăng Khoa, ca ngợi vẻ đẹp và giá trị của Trái Đất." }
+              ]
+            },
+            {
+              "title": "Viết: Bài văn thuyết minh về một vấn đề thuộc lĩnh vực môi trường",
+              "videoUrl": "https://example.com/videos/nguvan6_bai38_vietmoitruong.mp4",
+              "contents": [
+                { "type": "text", "value": "Hướng dẫn viết bài văn thuyết minh về một vấn đề môi trường." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

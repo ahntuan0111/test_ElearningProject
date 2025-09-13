@@ -29,10 +29,13 @@ class AppPages {
     ),
     GetPage(
       name: AppRoutes.subjectDetail,
-      page: () => SubjectDetailScreen(
-        grade: Get.arguments['grade'],
-        subject: Get.arguments['subject'],
-      ),
+      page: () {
+        final args = Get.arguments ?? {};
+        return SubjectDetailScreen(
+          grade: args['grade'] ?? 6,
+          subject: args['subject'] ?? 'Toán',
+        );
+      },
       transition: Transition.rightToLeftWithFade,
     ),
     GetPage(
@@ -42,31 +45,38 @@ class AppPages {
     ),
     GetPage(
       name: AppRoutes.theory,
-      page: () => TheoryScreen(
-        subject: Get.arguments['subject'],
-        grade: Get.arguments['grade'],
-      ),
+      page: () {
+        final args = Get.arguments ?? {};
+        return TheoryScreen(
+          subject: args['subject'] ?? 'Toán',
+          grade: args['grade'] ?? 6,
+        );
+      },
       transition: Transition.fadeIn,
     ),
     GetPage(
       name: AppRoutes.lessonDetail,
-      page: () => LessonDetailScreen(
-        lessonTitle: Get.arguments['lessonTitle'],
-        content: Get.arguments['content'],
-        videoUrl: Get.arguments['videoUrl'],
-      ),
+      page: () {
+        final args = Get.arguments ?? {};
+        return LessonDetailScreen(
+          lessonTitle: args['lessonTitle'] ?? '',
+          content: args['content'] ?? '',
+          videoUrl: args['videoUrl'] ?? '',
+        );
+      },
       transition: Transition.cupertino,
     ),
-
     GetPage(
       name: AppRoutes.quizDetail,
-      page: () => QuizDetailScreen(
-        subject: Get.arguments['subject'],
-        grade: Get.arguments['grade'],
-      ),
+      page: () {
+        final args = Get.arguments ?? {};
+        return QuizDetailScreen(
+          subject: args['subject'] ?? 'Toán',
+          grade: args['grade'] ?? 6,
+        );
+      },
       transition: Transition.rightToLeftWithFade,
     ),
-
     GetPage(
       name: AppRoutes.quiz,
       page: () => QuizScreen(),

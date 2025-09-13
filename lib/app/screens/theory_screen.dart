@@ -57,26 +57,29 @@ class TheoryScreen extends StatelessWidget {
                       leading: Hero(
                         tag: lesson.title,
                         child: Icon(Icons.menu_book,
-                            color: isDone ? primaryGreen : Colors.blue),
+                            color: controller.isCompleted(lesson.title) ? primaryGreen : Colors.blue),
                       ),
                       title: Text(
                         lesson.title,
                         style: TextStyle(
-                          color: isDone ? primaryGreen : Colors.black87,
-                          fontWeight: isDone ? FontWeight.bold : FontWeight.w500,
+                          color: controller.isCompleted(lesson.title) ? primaryGreen : Colors.black87,
+                          fontWeight: controller.isCompleted(lesson.title) ? FontWeight.bold : FontWeight.w500,
                         ),
                       ),
+                      // Bỏ subtitle hiển thị hình ảnh
                       trailing: Icon(
-                        isDone ? Icons.check_circle : Icons.arrow_forward_ios,
-                        color: isDone ? Colors.green : Colors.grey,
+                        controller.isCompleted(lesson.title) ? Icons.check_circle : Icons.arrow_forward_ios,
+                        color: controller.isCompleted(lesson.title) ? Colors.green : Colors.grey,
                       ),
                       onTap: () {
+                        controller.toggleComplete(lesson.title);
                         Get.toNamed(
                           AppRoutes.lessonDetail,
                           arguments: {
                             'lessonTitle': lesson.title,
                             'content': lesson.content,
                             'videoUrl': lesson.videoUrl,
+                            'imageUrl': lesson.imageUrl, // vẫn truyền để màn hình chi tiết dùng
                           },
                         );
                       },

@@ -23,7 +23,7 @@ class _LessonDetailScreenState extends State<LessonDetailScreen>
     with SingleTickerProviderStateMixin {
   late VideoPlayerController _videoController;
   ChewieController? _chewieController;
-  final TheoryController controller = Get.find<TheoryController>();
+  final TheoryController theoryController = Get.find<TheoryController>();
   bool _isLoading = true;
   late AnimationController _animController;
 
@@ -67,7 +67,7 @@ class _LessonDetailScreenState extends State<LessonDetailScreen>
 
   @override
   Widget build(BuildContext context) {
-    final isCompleted = controller.isCompleted(widget.lessonTitle);
+    final isCompleted = theoryController.isCompleted(widget.lessonTitle);
     final primaryGreen = const Color(0xFF4CAF50);
 
     return Scaffold(
@@ -113,7 +113,7 @@ class _LessonDetailScreenState extends State<LessonDetailScreen>
               scale: _animController,
               child: ElevatedButton.icon(
                 onPressed: () {
-                  controller.toggleComplete(widget.lessonTitle);
+                  theoryController.toggleComplete(widget.lessonTitle);
                   setState(() {});
                 },
                 icon: Icon(
